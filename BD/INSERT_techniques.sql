@@ -1,4 +1,4 @@
-INSERT INTO tecniques(name, description)
+INSERT INTO techniques(name, description)
 VALUES
 ("Sistema de captación de agua", "Regada con lluvia captada por medio de techos, con su respectivo sistema de riego por goteo."),
 ("Lombricomposta", "Nutre y fertiliza el suelo haciéndolo más productivo y mitiga los daños por heladas y sequías, aumentando la respuesta a los fertilizantes."),

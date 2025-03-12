@@ -1,7 +1,7 @@
-INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_detalles_id)
+INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_producer_id)
 VALUE(
 	"Manzana Gala", 
-	50, 
+	50.00, 
 	200, 
 	1,
 	"Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E. Contiene antioxidantes y polifenoles. Una manzana equivale a 2/3 de la porción mínima diaria recomendada de fruta.",
@@ -12,10 +12,10 @@ VALUE(
 );
 
 
-INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_detalles_id)
+INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_producer_id)
 VALUE(
 	"Plátano Dominico",
-    25,
+    25.00,
     100,
     1,
     "Plátano orgánico producido por 'Bananas Karla' en el Estado de México. Fuente de fibra, potasio y pectina. Contiene probióticos. Un plátano proporciona 1/4 de la cantidad diaria recomendada de Vitamina B6",
@@ -24,10 +24,10 @@ VALUE(
     2
 );
 	    
-INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_detalles_id)
+INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_producer_id)
 VALUE(
 	"Naranja Valencia",
-    31,
+    31.00,
     200,
     1,
     "Cosechada por la coperativa 'Naranjas Dulces' en Hidalgo. Fuente de fibra, potasio y diversos antioxidantes, entre ellos la vitamina C, de la cual provee el 100% de la dosis diaria recomendada",
@@ -37,7 +37,7 @@ VALUE(
     3
 );
 
-INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_detalles_id)
+INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_producer_id)
 VALUE(
 	"Zanahoria",
     14.90,
@@ -50,10 +50,10 @@ VALUE(
     4
 );
 
-INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_detalles_id)
+INSERT INTO products(product_name, price, stock, fk_category_id, description, benefits, fk_producer_id)
 VALUE(
 	"Tomate verde",
-    28,
+    28.00,
     200,
     1,
     "Tomate orgánico producido por 'ASCENZA' en el Estado de San Luis Potosí. Fuente de vitamina C, A, potasio y antioxidantes. Ayuda a fortalecer el sistema inmunológico y mejora la digestión.",
