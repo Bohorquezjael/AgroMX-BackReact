@@ -9,5 +9,4 @@ public class AgroMxApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AgroMxApplication.class, args);
 	}
-
 }
