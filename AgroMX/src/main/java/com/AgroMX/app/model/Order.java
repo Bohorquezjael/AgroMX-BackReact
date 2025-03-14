@@ -17,10 +17,9 @@ public class Order {
     @Column(name = "order_id", nullable = false)
     private Long id;
     
-    @Column(name = "user_id")
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
-    private Long userId;
+    private User userId;
     
     @Column(name = "date_time")
     private LocalDateTime dateTime;
