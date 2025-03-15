@@ -109,3 +109,339 @@ INSERT INTO
         "El tomate es un alimento nutritivo que aporta vitaminas (especialmente vitamina C y A ), minerales, fibra y antioxidantes que ayudan a combatir el envejecimiento celular. Nuestro Tomate Orgánico está producido por 'ASCENZA', una productora local en San Luis Potosí que cosecha sin agroquímicos y utiliza prácticas agrícolas sostenibles.  Comprando, apoyas la economía local, fomentas la agricultura sostenible y cuidas tu salud",
         4
     );
+
+    INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Limón",
+        12.00,
+        "kg",
+        250,
+        1,
+        "Fruta cítrica con alto contenido de vitamina C.",
+        "Fortalece el sistema inmunológico, mejora la digestión y tiene propiedades antioxidantes.",
+        16
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Uva",
+        60.00,
+        "kg",
+        180,
+        1,
+        "Pequeñas frutas dulces y jugosas, disponibles en variedad roja y verde.",
+        "Ricas en antioxidantes, benefician la circulación y la salud del corazón.",
+        17
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Fresa",
+        72.00,
+        "kg",
+        120,
+        1,
+        "Fruta roja y jugosa con un delicioso sabor dulce y ácido.",
+        "Rica en vitamina C, fibra y antioxidantes que favorecen la salud de la piel y el sistema inmunológico.",
+        18
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Kiwi",
+        43.00,
+        "kg",
+        90,
+        1,
+        "Fruta exótica con pulpa verde y alto contenido de vitamina C.",
+        "Mejora la digestión, refuerza el sistema inmunológico y es excelente para la piel.",
+        19
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Mango petacón",
+        52.00,
+        "kg",
+        140,
+        1,
+        "Mango dulce y jugoso, ideal para postres y licuados.",
+        "Rico en fibra, vitamina A y C, favorece la digestión y fortalece el sistema inmunológico.",
+        20
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Piña miel",
+        60.00,
+        "kg",
+        110,
+        1,
+        "Fruta tropical de sabor dulce y refrescante.",
+        "Contiene bromelina, una enzima que facilita la digestión y tiene propiedades antiinflamatorias.",
+        21
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Sandía",
+        84.00,
+        "kg",
+        95,
+        1,
+        "Fruta grande y jugosa con alto contenido de agua.",
+        "Hidrata el cuerpo, es rica en antioxidantes y ayuda a la recuperación muscular.",
+        22
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Melón",
+        67.00,
+        "kg",
+        105,
+        1,
+        "Fruta refrescante de sabor dulce y textura suave.",
+        "Hidratante natural, rica en vitaminas A y C, excelente para la piel.",
+        23
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Lima criolla",
+        40.00,
+        "kg",
+        150,
+        1,
+        "Cítrico aromático con un toque dulce.",
+        "Ayuda a la digestión y refuerza el sistema inmunológico.",
+        24
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Mandarina",
+        26.00,
+        "kg",
+        170,
+        1,
+        "Pequeño cítrico de sabor dulce y fácil de pelar.",
+        "Fuente de vitamina C, fortalece el sistema inmunológico y mejora la piel.",
+        25
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Toronja",
+        31.00,
+        "kg",
+        130,
+        1,
+        "Fruta cítrica con un característico sabor agridulce.",
+        "Ayuda a regular el metabolismo y contiene antioxidantes.",
+        26
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Chirimoya",
+        72.00,
+        "kg",
+        85,
+        1,
+        "Fruta tropical cremosa y de sabor dulce.",
+        "Rica en vitaminas B y C, excelente fuente de energía.",
+        27
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Chile guajillo seco",
+        0.70,
+        "kg",
+        130,
+        2,
+        "Chile seco de color rojo brillante y sabor ligeramente picante.",
+        "Muy utilizado en la gastronomía mexicana para salsas y guisos.",
+        28
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Chile ancho seco",
+        0.80,
+        "kg",
+        120,
+        2,
+        "Chile seco de sabor dulce y ahumado.",
+        "Aporta un toque especial a salsas y platillos tradicionales.",
+        29
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Chile pasilla seco",
+        0.90,
+        "kg",
+        110,
+        2,
+        "Chile seco de sabor profundo y suave picor.",
+        "Ingrediente esencial en moles y salsas mexicanas.",
+        30
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Chile chipotle seco",
+        1.00,
+        "kg",
+        100,
+        2,
+        "Chile seco ahumado con un sabor característico.",
+        "Aporta un toque picante y ahumado a diversos platillos.",
+        16
+    );
