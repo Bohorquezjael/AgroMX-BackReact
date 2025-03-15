@@ -107,7 +107,219 @@ INSERT INTO
         1,
         "Tomate orgánico producido por 'ASCENZA' en el Estado de San Luis Potosí. Fuente de vitamina C, A, potasio y antioxidantes. Ayuda a fortalecer el sistema inmunológico y mejora la digestión.",
         "El tomate es un alimento nutritivo que aporta vitaminas (especialmente vitamina C y A ), minerales, fibra y antioxidantes que ayudan a combatir el envejecimiento celular. Nuestro Tomate Orgánico está producido por 'ASCENZA', una productora local en San Luis Potosí que cosecha sin agroquímicos y utiliza prácticas agrícolas sostenibles.  Comprando, apoyas la economía local, fomentas la agricultura sostenible y cuidas tu salud",
-        4
+        5
+    );
+
+
+    
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Lechuga orejona",
+        14.00,
+        "kg",
+        200,
+        1,
+        "Lechuga fresca y crujiente, ideal para ensaladas y platillos saludables.",
+        "Baja en calorías, rica en fibra, vitaminas A y K.",
+        6
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Pimiento rojo",
+        26.00,
+        "kg",
+        200,
+        1,
+        "Pimiento orgánico producido por 'Hortalizas del Valle'. Rico en vitamina C y antioxidantes. Ideal para ensaladas y platillos salteados.",
+        "El pimiento es una hortaliza rica en nutrientes. Fuente de vitaminas C, A, B6 y ácido fólico. Contiene antioxidantes que ayudan a fortalecer el sistema inmunológico.",
+        7
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Cebolla",
+        15.00,
+        "kg",
+        200,
+        1,
+        "Cebolla blanca cultivada por 'Productores Unidos'. Rica en compuestos sulfúricos y antioxidantes. Base fundamental de la cocina mexicana.",
+        "La cebolla es un vegetal versátil rico en antioxidantes y compuestos sulfúricos. Ayuda a fortalecer el sistema inmunológico y tiene propiedades antiinflamatorias.",
+        8
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Ajo",
+        8.00,
+        "kg",
+        200,
+        1,
+        "Ajo fresco cultivado por 'Ajos del Centro'. Rico en alicina y compuestos sulfúricos. Condimento esencial en la cocina.",
+        "El ajo es un alimento con propiedades antimicrobianas y antiinflamatorias. Rico en compuestos beneficiosos para la salud cardiovascular.",
+        9
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Papa",
+        10.00,
+        "kg",
+        200,
+        1,
+        "Papa blanca cultivada por 'Tubérculos San Juan'. Rica en almidón y potasio. Versátil para diferentes preparaciones culinarias.",
+        "La papa es un tubérculo nutritivo rico en carbohidratos complejos, potasio y vitamina C. Excelente fuente de energía y fibra.",
+        10
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Calabacín",
+        24.00,
+        "kg",
+        200,
+        1,
+        "Calabacín fresco cultivado por 'Huertos Orgánicos'. Bajo en calorías y rico en agua. Ideal para dietas saludables.",
+        "El calabacín es una hortaliza baja en calorías y rica en agua. Aporta vitaminas, minerales y antioxidantes importantes para una dieta equilibrada.",
+        11
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Brócoli",
+        35.00,
+        "kg",
+        200,
+        1,
+        "Brócoli fresco cultivado por 'Verduras del Campo'. Rico en fibra y vitamina C. Excelente fuente de antioxidantes.",
+        "El brócoli es una verdura crucífera rica en vitamina C, K, fibra y compuestos anticancerígenos. Fortalece el sistema inmune y promueve la salud celular.",
+        12
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Espinaca",
+        28.00,
+        "kg",
+        200,
+        1,
+        "Espinaca fresca cultivada por 'Hortalizas Verdes'. Rica en hierro y ácido fólico. Ideal para ensaladas y guisos.",
+        "La espinaca es una verdura de hoja verde rica en hierro, ácido fólico y antioxidantes. Fortalece el sistema inmune y favorece la salud cardiovascular.",
+        13
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Pepino",
+        18.00,
+        "kg",
+        200,
+        1,
+        "Pepino fresco cultivado por 'Huertos Frescos'. Alto contenido de agua y bajo en calorías. Ideal para ensaladas y bebidas refrescantes.",
+        "El pepino es una hortaliza refrescante rica en agua y minerales. Ayuda a la hidratación y tiene propiedades antiinflamatorias.",
+        14
+    );
+
+INSERT INTO
+    products (
+        product_name,
+        price,
+        unit,
+        stock,
+        fk_category_id,
+        description,
+        benefits,
+        fk_producer_id
+    ) VALUE (
+        "Calabaza",
+        48.00,
+        "kg",
+        200,
+        1,
+        "Calabaza fresca cultivada por 'Productores del Valle'. Rica en betacarotenos y fibra. Versátil para sopas y guisos.",
+        "La calabaza es una hortaliza rica en betacarotenos, vitamina A y fibra. Fortalece el sistema inmune y favorece la salud ocular.",
+        15
     );
 
     INSERT INTO
@@ -445,3 +657,4 @@ INSERT INTO
         "Aporta un toque picante y ahumado a diversos platillos.",
         16
     );
+
