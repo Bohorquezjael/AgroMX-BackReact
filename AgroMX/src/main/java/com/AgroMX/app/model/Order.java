@@ -31,4 +31,8 @@ public class Order {
     //FIXME: cambiar el orden de la relacion con productos y usar un set o list
     @Column(name = "products")
     private Set<Product> products;
+
+    public boolean validateFields() {
+        return true;
+    }
 }

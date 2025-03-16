@@ -1,14 +1,6 @@
 package com.AgroMX.app.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 	@Entity
 	@Table(name = "Products")
@@ -20,11 +12,11 @@ import jakarta.persistence.Table;
 //		@OneToMany
 //		@JoinColumn(name = "order_id", nullable = false)
 //		private Order orderId;
-		@ManyToOne
-		@JoinColumn(name = "detail_id", nullable = false)
-		private Detail detailId;
-		@ManyToOne
-		@JoinColumn(name = "category_id", nullable = false)
+		
+
+		// @ManyToOne
+		// @JoinColumn(name = "category_id", nullable = false)
+		@Column(name = "category_id")
 		private Category CategoryId;
 		@Column(name = "product_name", length = 100, nullable = false)
 		private String productName;
@@ -37,9 +29,7 @@ import jakarta.persistence.Table;
 		@Column(name = "benefits", length = 1000, nullable = false)
 		private String benefits;
 
-		Product() {		
-			
-		}
+		Product() {}
 
 		public Product(Long id, String productName, Double price, Long stock, String description,
 				String benefits) {
@@ -99,6 +89,15 @@ import jakarta.persistence.Table;
 			this.benefits = benefits;
 		}
 
+		
+		public Category getCategoryId() {
+			return CategoryId;
+		}
+
+		public void setCategoryId(Category categoryId) {
+			CategoryId = categoryId;
+		}
+
 		@Override
 		public String toString() {
 			StringBuilder builder = new StringBuilder();
@@ -115,6 +114,5 @@ import jakarta.persistence.Table;
 			builder.append("]");
 			return builder.toString();
 		}
-		
 }	
 
