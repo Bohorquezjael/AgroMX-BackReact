@@ -10,6 +10,12 @@ import com.AgroMX.app.service.ProducerService;
 
 @Service
 public class ProducerServiceImpl implements ProducerService {
+	
+	private final ProducerRepository producerRepository;
+	
+	public ProducerServiceImpl(ProducerRepository producerRepository) {
+		this.producerRepository = producerRepository;
+	}
 
 	@Override
 	public Producer createProducer(Producer producer) {
@@ -19,14 +25,14 @@ public class ProducerServiceImpl implements ProducerService {
 
 	@Override
 	public Producer getProducerById(Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		Optional<Producer> existingProducer = producerRepository.findByProducerId(id);
+		return existingProducer.orElseThrow(() -> new IllegalStateException("No existe el productor con el id " + id));
 	}
 
 	@Override
 	public Producer getProducerByProducerName(String producerName) {
-		// TODO Auto-generated method stub
-		return null;
+		Optional<Producer> existingProducer = producerRepository.findByProducerName(producerName);
+		return existingProducer.orElseThrow( () -> new IllegalStateException("No existe el productor con nombre " + producerName));
 	}
 
 	@Override
@@ -39,6 +45,11 @@ public class ProducerServiceImpl implements ProducerService {
 	public void deleteProducer(Long id) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public Iterable<Producer> getAllProducers() {
+		return producerRepository.findAllProducersByActiveTrue();
 	}
 	
 }
