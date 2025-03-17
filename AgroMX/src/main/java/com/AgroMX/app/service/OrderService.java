@@ -1,35 +1,16 @@
 package com.AgroMX.app.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ProblemDetail;
-import org.springframework.stereotype.Service;
+import java.util.Optional;
 
 import com.AgroMX.app.model.Order;
-import com.AgroMX.app.repository.OrderRepository;
 
-@Service
-public class OrderService {
+public interface OrderService {
+    
+    public Optional<Order> createOrder(Order orderBody);
 
-    @Autowired
-    private OrderRepository orderRepository;
+    public Optional<Order> getOrder(Long id);
 
-    // TODO: validar si tenemos stock de los productos solicitados
+    public Optional<Order> updateOrder(Long id, Order newOrderBody);
 
-    // TODO: validar si la fecha de compra es actual/ valida
-
-    public Order getOrderById(Long id) {
-        // TODO: implementar logica de negocio y excepciones personalizadas,
-        // posiblemente
-        // implementar loggin
-
-        return orderRepository.findById(id).orElseThrow();
-    }
-
-    public Order createOrder(Order orderInfo) throws Exception{
-        Order order = orderInfo;
-        if(!orderInfo.validateFields()){
-            throw new Exception("Invalid fields");
-        }
-        return orderRepository.save(order);
-    }
+    public Optional<Order> deleteOrder(Long id);
 }
