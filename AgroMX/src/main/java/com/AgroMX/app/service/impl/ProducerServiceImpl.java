@@ -26,7 +26,7 @@ public class ProducerServiceImpl implements ProducerService {
 
 	@Override
 	public Producer getProducerById(Long id) {
-		Optional<Producer> existingProducer = producerRepository.findByProducerId(id);
+		Optional<Producer> existingProducer = producerRepository.findById(id);
 		return existingProducer.orElseThrow(() -> new IllegalStateException("No existe el productor con el id " + id));
 	}
 
@@ -48,9 +48,9 @@ public class ProducerServiceImpl implements ProducerService {
 		
 	}
 
-	@Override
-	public Iterable<Producer> getAllProducers() {
-		return producerRepository.findAllProducersByActiveTrue();
-	}
+	// @Override
+	// public Iterable<Producer> getAllProducers() {
+	// 	return producerRepository.findAllProducersByActiveTrue();
+	// }
 	
 }

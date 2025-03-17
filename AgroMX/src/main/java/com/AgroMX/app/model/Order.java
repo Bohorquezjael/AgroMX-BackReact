@@ -28,10 +28,9 @@ public class Order {
     @Column(name = "date_time")
     private LocalDateTime dateTime;
 
-    //FIXME: cambiar el orden de la relacion con productos y usar un set o list
-    //@ElementCollection
-    //@Column(name = "products")
-    //private Set<Product> products;
+    @OneToMany
+    @JoinColumn(name = "products")
+    private Set<Product> products;
 
     public boolean validateFields() {
         return true;
