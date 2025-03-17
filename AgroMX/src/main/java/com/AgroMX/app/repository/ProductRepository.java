@@ -11,8 +11,8 @@ import com.AgroMX.app.model.Product;
 
 public interface ProductRepository extends CrudRepository<Product, Long>, PagingAndSortingRepository<Product, Long> {
 
-    Set<Product> findByCategory(String category);
+    //Set<Product> findByCategory(String category);
     
-    Page<Product> findAllByActiveTrue(Pageable pageable);
-    Page<Product> findAllByActiveFalse(Pageable pageable);
+    //Page<Product> findAllByActiveTrue(Pageable pageable);
+    //Page<Product> findAllByActiveFalse(Pageable pageable);
 }
