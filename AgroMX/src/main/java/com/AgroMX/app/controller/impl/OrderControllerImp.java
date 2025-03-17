@@ -6,15 +6,15 @@ import org.springframework.web.bind.annotation.*;
 
 import com.AgroMX.app.controller.OrderController;
 import com.AgroMX.app.model.Order;
-import com.AgroMX.app.service.OrderService;
+import com.AgroMX.app.service.impl.OrderServiceImp;
 
 @Controller
 @RequestMapping("/order")
 public class OrderControllerImp implements OrderController {
 
-    private final OrderService orderService;
+    private final OrderServiceImp orderService;
 
-    public OrderControllerImp(OrderService orderService) {
+    public OrderControllerImp(OrderServiceImp orderService) {
         this.orderService = orderService;
     }
 
@@ -29,7 +29,7 @@ public class OrderControllerImp implements OrderController {
     @Override
     @GetMapping("/{id}")
     public ResponseEntity<Order> getOrder(@PathVariable Long id) {
-        return orderService.getOrderById(id)
+        return orderService.getOrder(id)
                 .map(orderId -> ResponseEntity.ok(orderId))
                 .orElseGet(() -> ResponseEntity.status(404).build());
     }
