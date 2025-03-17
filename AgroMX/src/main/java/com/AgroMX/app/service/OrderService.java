@@ -27,9 +27,9 @@ public class OrderService {
 
     public Order createOrder(Order orderInfo) throws Exception{
         Order order = orderInfo;
-        if(orderInfo.validateFields()){
+        if(!orderInfo.validateFields()){
             throw new Exception("Invalid fields");
         }
-        return orderRepository.save(orderInfo);
+        return orderRepository.save(order);
     }
 }

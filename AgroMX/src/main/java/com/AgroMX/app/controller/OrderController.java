@@ -21,7 +21,8 @@ public class OrderController {
     }
 
     @PostMapping("/")
-    public ResponseEntity<Order> createOrder(@RequestBody Order orderInfo){
-        return ResponseEntity.status(201).body(orderInfo);
+    public ResponseEntity<Order> createOrder(@RequestBody Order orderInfo) throws Exception {
+        System.out.println("User ID from JSON: " + orderInfo.getUserId());
+        return ResponseEntity.status(201).body(orderService.createOrder(orderInfo));
     }
 }
