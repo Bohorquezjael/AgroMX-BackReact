@@ -8,6 +8,7 @@ import com.AgroMX.app.model.Producer;
 import com.AgroMX.app.repository.ProducerRepository;
 import com.AgroMX.app.service.ProducerService;
 
+
 @Service
 public class ProducerServiceImpl implements ProducerService {
 	
