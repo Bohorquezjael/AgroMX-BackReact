@@ -7,7 +7,7 @@ public interface ProducerService {
 	Producer createProducer( Producer producer );
 	Producer getProducerById( Long id );
 	Producer getProducerByProducerName( String producerName );
-	Iterable<Producer> getAllProducers();
+	// Iterable<Producer> getAllProducers();
 	Producer updateProducer(Producer producer, Long id);
 	void deleteProducer( Long id );
 }
