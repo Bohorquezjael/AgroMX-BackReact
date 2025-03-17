@@ -14,9 +14,8 @@ import jakarta.persistence.*;
 //		private Order orderId;
 		
 
-		// @ManyToOne
-		// @JoinColumn(name = "category_id", nullable = false)
-		@Column(name = "category_id")
+		@ManyToOne
+		@JoinColumn(name = "category_id", nullable = false)
 		private Category CategoryId;
 		@Column(name = "product_name", length = 100, nullable = false)
 		private String productName;
@@ -29,7 +28,7 @@ import jakarta.persistence.*;
 		@Column(name = "benefits", length = 1000, nullable = false)
 		private String benefits;
 
-		Product() {}
+		public Product() {}
 
 		public Product(Long id, String productName, Double price, Long stock, String description,
 				String benefits) {
