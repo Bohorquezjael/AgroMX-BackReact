@@ -19,6 +19,7 @@ local.properties
 
 # External tool builders
 .externalToolBuilders/
+AgroMX\src\main\resources\application.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
@@ -210,7 +211,7 @@ hs_err_pid*
 replay_pid*
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
