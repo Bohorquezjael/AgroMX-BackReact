@@ -655,6 +655,598 @@ INSERT INTO
         2,
         "Chile seco ahumado con un sabor característico.",
         "Aporta un toque picante y ahumado a diversos platillos.",
-        16
+        31
     );
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Chile cascabel seco",
+    0.90,
+    "kg",
+    110,
+    1,
+    "Chile seco con un sabor suave y picante.",
+    "Ideal para salsas y moles.",
+    32
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Chile mulato seco",
+    0.80,
+    "kg",
+    120,
+    1,
+    "Chile seco con un sabor dulce y ligeramente ahumado.",
+    "Aporta un toque suave a los platillos mexicanos.",
+    33
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Chile de agua seco",
+    0.70,
+    "kg",
+    130,
+    1,
+    "Chile seco con sabor medio y ligeramente picante.",
+    "Perfecto para salsas y guisos.",
+    34
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Chile manzano",
+    0.80,
+    "kg",
+    120,
+    1,
+    "Chile fresco con un sabor picante y afrutado.",
+    "Ideal para ensaladas y salsas frescas.",
+    35
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Chile piquín seco",
+    0.90,
+    "kg",
+    110,
+    1,
+    "Chile seco pequeño y muy picante.",
+    "Aporta un nivel alto de picante a los platillos.",
+    36
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Aguacate",
+    1.00,
+    "unidad",
+    100,
+    2,
+    "Fruta rica en grasas saludables y fibra.",
+    "Beneficios para la salud cardiovascular y digestiva.",
+    37
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Chile de onza seco",
+    0.90,
+    "kg",
+    110,
+    1,
+    "Chile seco con un toque picante y ahumado.",
+    "Ideal para salsas y adobos.",
+    38
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de girasol",
+    1.50,
+    "kg",
+    200,
+    3,
+    "Semilla rica en grasas saludables, proteínas y fibra.",
+    "Ayuda a mejorar la salud cardiovascular y la piel.",
+    39
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de calabaza",
+    1.80,
+    "kg",
+    150,
+    3,
+    "Semilla rica en antioxidantes y magnesio.",
+    "Beneficios para la salud digestiva y la piel.",
+    40
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de chía",
+    2.50,
+    "kg",
+    100,
+    3,
+    "Semilla rica en omega-3, fibra y antioxidantes.",
+    "Ayuda a mejorar la digestión y reducir la inflamación.",
+    41
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de lino",
+    2.00,
+    "kg",
+    120,
+    3,
+    "Semilla rica en fibra, omega-3 y antioxidantes.",
+    "Mejora la digestión y promueve la salud del corazón.",
+    42
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de sésamo",
+    1.70,
+    "kg",
+    180,
+    3,
+    "Semilla rica en calcio, hierro y antioxidantes.",
+    "Contribuye a la salud ósea y mejora el sistema inmunológico.",
+    43
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de amapola",
+    2.20,
+    "kg",
+    90,
+    3,
+    "Semilla rica en antioxidantes y minerales.",
+    "Ayuda a mejorar la salud digestiva y la piel.",
+    44
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de quinoa",
+    3.00,
+    "kg",
+    80,
+    3,
+    "Semilla rica en proteínas completas, fibra y minerales.",
+    "Beneficios para la salud muscular y digestiva.",
+    45
+);
+
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUE (
+    "Semilla de amaranto",
+    2.80,
+    "kg",
+    70,
+    3,
+    "Semilla rica en proteínas, hierro y calcio.",
+    "Ayuda a mejorar la salud ósea y cardiovascular.",
+    46
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Composta Orgánica",
+    150.00,
+    "kg",
+    100,
+    1,
+    "Mezcla de materia orgánica 100% natural, ideal para enriquecer el suelo y mejorar la fertilidad.",
+    "Aporta nutrientes esenciales a la tierra, mejora la retención de agua y fomenta la actividad microbiana beneficiosa.",
+    47
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Mermelada de Fresa Orgánica",
+    85.00,
+    "tarro",
+    100,
+    2,
+    "Mermelada artesanal elaborada con fresas orgánicas y endulzada con piloncillo.",
+    "Conserva el sabor y los nutrientes de la fruta sin conservadores artificiales. Rica en antioxidantes y vitamina C.",
+    48
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Humus de Lombriz",
+    120.00,
+    "kg",
+    100,
+    1,
+    "Abono orgánico 100% natural obtenido a partir del proceso de lombricomposta, ideal para enriquecer la tierra.",
+    "Mejora la estructura del suelo, aumenta la retención de agua y promueve el crecimiento de microorganismos beneficiosos.",
+    49
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Conserva de Chiles en Vinagre",
+    95.00,
+    "frasco",
+    100,
+    2,
+    "Chiles jalapeños en conserva con zanahorias, cebolla y especias, preparados de manera artesanal.",
+    "Ricos en vitamina C y capsaicina, ideales para acompañar comidas y aportar un toque picante y ácido.",
+    50
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Composta de Residuos de Café",
+    135.00,
+    "kg",
+    100,
+    1,
+    "Abono natural elaborado con residuos de café, ideal para mejorar la fertilidad del suelo y el crecimiento de las plantas.",
+    "Aporta nitrógeno, mejora la retención de humedad y fomenta la actividad microbiana beneficiosa en la tierra.",
+    51
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Miel Orgánica Multifloral",
+    180.00,
+    "tarro",
+    100,
+    2,
+    "Miel pura y sin aditivos, obtenida de colmenas ubicadas en ecosistemas agroecológicos.",
+    "Rica en antioxidantes, enzimas naturales y propiedades antibacterianas.",
+    52
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Bokashi Casero",
+    200.00,
+    "kg",
+    100,
+    1,
+    "Abono fermentado elaborado con salvado de trigo, melaza y microorganismos benéficos.",
+    "Aporta microorganismos que mejoran la salud del suelo, favorece la descomposición de materia orgánica y aumenta la disponibilidad de nutrientes.",
+    53
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Conserva de Nopales en Salmuera",
+    70.00,
+    "frasco",
+    100,
+    2,
+    "Nopales tiernos en conserva de agua y sal, listos para su consumo en ensaladas, guisados o como acompañamiento.",
+    "Ricos en fibra, antioxidantes y compuestos que regulan los niveles de glucosa en sangre.",
+    54
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Composta de Residuos de Cacao",
+    145.00,
+    "kg",
+    100,
+    1,
+    "Abono orgánico elaborado con cáscaras de cacao, ideal para enriquecer suelos y promover el crecimiento saludable de las plantas.",
+    "Aporta nutrientes esenciales como potasio, fósforo y calcio. Mejora la estructura del suelo y favorece la actividad microbiana.",
+    55
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Chutney de Mango Orgánico",
+    130.00,
+    "tarro",
+    100,
+    2,
+    "Chutney artesanal elaborado con mango de temporada, especias y vinagre natural.",
+    "Alto en antioxidantes, vitamina C y probióticos naturales debido a su proceso de fermentación.",
+    56
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Abono Orgánico con Residuos de Cítricos",
+    160.00,
+    "kg",
+    100,
+    1,
+    "Fertilizante natural hecho a base de cáscaras de naranja y limón, ideal para suelos ácidos.",
+    "Aporta ácido cítrico natural, mejora la textura del suelo y repele plagas de manera ecológica.",
+    57
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Jitomates Deshidratados en Aceite de Oliva",
+    155.00,
+    "frasco",
+    100,
+    2,
+    "Jitomates deshidratados al sol y conservados en aceite de oliva con hierbas aromáticas.",
+    "Ricos en licopeno, vitamina A y antioxidantes naturales. Excelente fuente de sabor para ensaladas y platillos mediterráneos.",
+    58
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Fertilizante Orgánico de Algas Marinas",
+    175.00,
+    "litro",
+    100,
+    1,
+    "Abono líquido elaborado a partir de algas marinas, rico en minerales y hormonas naturales de crecimiento.",
+    "Mejora la absorción de nutrientes, estimula el crecimiento radicular y fortalece la resistencia de las plantas.",
+    59
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Pepinillos Orgánicos en Salmuera",
+    90.00,
+    "frasco",
+    100,
+    2,
+    "Pepinillos encurtidos en una mezcla de sal, vinagre de manzana y especias naturales.",
+    "Ricos en probióticos naturales, ideales para la digestión y la salud intestinal.",
+    60
+);
+INSERT INTO products (
+    product_name,
+    price,
+    unit,
+    stock,
+    fk_category_id,
+    description,
+    benefits,
+    fk_producer_id
+) VALUES (
+    "Biochar para Enriquecimiento del Suelo",
+    190.00,
+    "kg",
+    100,
+    1,
+    "Carbón vegetal activado para mejorar la retención de agua y nutrientes en el suelo.",
+    "Ayuda a reducir la erosión, mejora la fertilidad del suelo y captura carbono de la atmósfera.",
+    61
+);
+
+
+
+
+
+
+
+
 
