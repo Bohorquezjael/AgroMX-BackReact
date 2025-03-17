@@ -47,7 +47,7 @@ public class OrderControllerImp implements OrderController {
     public ResponseEntity<Order> deleteOrder(@PathVariable Long id) {
         return orderService.deleteOrder(id)
                 .map(order -> ResponseEntity.ok(order))
-                .orElseGet(ResponseEntity::noContent);
+                .orElseGet(() -> ResponseEntity.status(204).build());
     }
 
 }
