@@ -19,9 +19,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User createUser(User user) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'createUser'");
-    }
+        user.setId(null);
+        return userRepository.save(user);
+        }
 
     @Override
     public User getUserById(Long id) {
@@ -31,20 +31,21 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getUserByEmail(String email) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getUserByEmail'");
+        Optional < User > existingUser = userRepository.findByEmail(email);
+        return existingUser.orElseThrow(() -> new IllegalStateException("No existe el usuario con este" + email));
     }
 
     @Override
     public User updateUser(User user, Long id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'updateUser'");
+		User existingUser = getUserById(id);
+		existingUser.setUserName( user.getUserName() );
+		return userRepository.save(existingUser);
     }
 
     @Override
     public void deleteUser(Long id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'deleteUser'");
+        User existingUser = getUserById(id);
+		userRepository.delete(existingUser);
     }
     
 }
