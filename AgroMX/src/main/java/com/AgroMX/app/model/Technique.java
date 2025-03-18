@@ -15,7 +15,7 @@ public class Technique {
 	private Long id;
 	@Column(name = "name", length = 45, nullable = false)
 	private String techniqueName;
-	@Column(name = "description", length = 45, nullable = false)
+	@Column(name = "description", length = 300, nullable = false)
 	private String techniqueDescription;
 	
 	Technique(){}
