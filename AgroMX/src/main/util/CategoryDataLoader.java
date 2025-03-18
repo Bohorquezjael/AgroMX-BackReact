@@ -17,6 +17,6 @@ public class CategoryDataLoader implements CommandLineRunner{
     public void run(String... args) throws Exception {
         categoryRepository.save(new Category("Fertilizantes", "Productos para nutrir tus plantas", "https://www.google.com"));
         categoryRepository.save(new Category("Semillas", "Semillas de todo tipo de plantas", "https://www.google.com"));
-        categoryRepository.save(new Category("Herramientas", "Herramientas para el cuidado de tus plantas", "https://www.google.com"));
+        categoryRepository.save(new Category("Frutas y verduras", "Herramientas para el cuidado de tus plantas", "https://www.google.com"));
     }
 }
