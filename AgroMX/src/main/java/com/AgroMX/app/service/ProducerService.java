@@ -5,7 +5,7 @@ import com.AgroMX.app.model.Producer;
 public interface ProducerService {
 	
 	Producer createProducer( Producer producer );
-	Producer getProducerById( Long id );
+	Producer getProducerByProducerId( Long id );
 	Producer getProducerByProducerName( String producerName );
 	// Iterable<Producer> getAllProducers();
 	Producer updateProducer(Producer producer, Long id);
