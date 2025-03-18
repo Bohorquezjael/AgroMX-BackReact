@@ -8,6 +8,12 @@ import com.AgroMX.app.controller.OrderController;
 import com.AgroMX.app.model.Order;
 import com.AgroMX.app.service.impl.OrderServiceImp;
 
+/**
+ * @author
+ * @Bohorquezjael
+ * @apiNote This class implements the OrderController interface
+ **/
+
 @Controller
 @RequestMapping("/order")
 public class OrderControllerImp implements OrderController {

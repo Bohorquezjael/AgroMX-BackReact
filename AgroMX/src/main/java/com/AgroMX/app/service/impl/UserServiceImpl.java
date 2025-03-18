@@ -1,5 +1,7 @@
 package com.AgroMX.app.service.impl;
 
+import org.springframework.stereotype.Service;
+
 import com.AgroMX.app.model.User;
 import com.AgroMX.app.service.UserService;
 
