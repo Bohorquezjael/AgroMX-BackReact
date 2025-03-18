@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins = "*")
-@RestController
+@RestController 
 @RequestMapping("/api/users") 
 public class UserController {
 
@@ -29,7 +29,7 @@ public class UserController {
 	}
 	
 	
-	@GetMapping("{id}") // http:localhost:8080/api/v1/customers/{id} 
+	@GetMapping("{id}") 
 	User getUserById(@PathVariable("id") Long id){
 		User existingUser = userService.getUserById(id);
 		return existingUser;
@@ -49,7 +49,7 @@ public class UserController {
 		return ResponseEntity.ok(updatedUser);
 	}
 	
-	@DeleteMapping("{id}") // http:localhost:8080/api/v1/customers/{id}
+	@DeleteMapping("{id}") 
 	ResponseEntity<Void> deleteUser(@PathVariable("id") Long id){
 		userService.deleteUser(id);
 		return ResponseEntity.noContent().build(); // Status 204
