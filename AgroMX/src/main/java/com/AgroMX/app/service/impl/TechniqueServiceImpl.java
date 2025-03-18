@@ -4,7 +4,6 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.AgroMX.app.model.Producer;
 import com.AgroMX.app.model.Technique;
 import com.AgroMX.app.repository.TechniqueRepository;
 import com.AgroMX.app.service.TechniqueService;
