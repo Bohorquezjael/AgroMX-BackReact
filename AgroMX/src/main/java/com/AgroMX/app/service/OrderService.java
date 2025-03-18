@@ -4,6 +4,11 @@ import java.util.Optional;
 
 import com.AgroMX.app.model.Order;
 
+/** 
+ * @author
+ * @Bohorquezjael
+*/
+
 public interface OrderService {
     
     public Optional<Order> createOrder(Order orderBody);
@@ -12,5 +17,5 @@ public interface OrderService {
 
     public Optional<Order> updateOrder(Long id, Order newOrderBody);
 
-    public Optional<Order> deleteOrder(Long id);
+    public void deleteOrder(Long id);
 }

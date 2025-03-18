@@ -5,7 +5,10 @@ import org.springframework.stereotype.Repository;
 
 import com.AgroMX.app.model.Order;
 
+/**
+ * @author
+ * @Bohorquezjael
+ */
+
 @Repository
-public interface OrderRepository extends JpaRepository<Order, Long> {
-    
-}
+public interface OrderRepository extends JpaRepository<Order, Long> {}
