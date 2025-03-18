@@ -24,7 +24,6 @@ public class Category {
 	Category(){}
 
 	public Category(Long id, String categoryName, String categoryDescription, String categoryUrlImage) {
-		super();
 		this.id = id;
 		this.categoryName = categoryName;
 		this.categoryDescription = categoryDescription;
