@@ -25,6 +25,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	// https://mvnrepository.com/artifact/org.projectlombok/lombok
 	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
+	annotationProcessor 'org.projectlombok:lombok:1.18.36'
 	// https://mvnrepository.com/artifact/com.h2database/h2
 	runtimeOnly group: 'com.h2database', name: 'h2', version: '2.3.232'
 	// https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
@@ -38,6 +39,6 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-tasks.withType(JavaCompile) {
-    options.release = 17 // Se asegura de que el código sea compatible desde JDK 17 en adelante
+tasks.withType(JavaCompile).configureEach {
+	options.release = 17 // Se asegura de que el código sea compatible desde JDK 17 en adelante
 }
