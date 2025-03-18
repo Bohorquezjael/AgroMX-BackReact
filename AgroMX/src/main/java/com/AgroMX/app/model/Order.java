@@ -30,7 +30,7 @@ public class Order {
 
     @OneToMany
     @JoinColumn(name = "products")
-    private Set<Product> products;
+    private Set<ProductOrder> products;
 
     public boolean validateFields() {
         return true;
