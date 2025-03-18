@@ -25,6 +25,7 @@ public class ProducerServiceImpl implements ProducerService {
 			throw new IllegalStateException("El productor" + producer.getProducerName() + "ya se ha registrado");
 		}
 		producer.setId(null);
+		producer.setActive(true);
 		Producer newProducer = producerRepository.save( producer );
 		
 		return newProducer;

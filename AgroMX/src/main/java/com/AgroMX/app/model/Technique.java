@@ -17,6 +17,8 @@ public class Technique {
 	private String techniqueName;
 	@Column(name = "description", length = 300, nullable = false)
 	private String techniqueDescription;
+	@Column(name = "active")
+	private boolean active;
 	
 	Technique(){}
 
@@ -51,6 +53,14 @@ public class Technique {
 		this.techniqueDescription = techniqueDescription;
 	}
 
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -60,6 +70,8 @@ public class Technique {
 		builder.append(techniqueName);
 		builder.append(", techniqueDescription=");
 		builder.append(techniqueDescription);
+		builder.append(", active=");
+		builder.append(active);
 		builder.append("]");
 		return builder.toString();
 	}
