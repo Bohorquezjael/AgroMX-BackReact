@@ -40,13 +40,13 @@ public class ProducerControllerImpl implements ProducerController {
 
 	@Override
 	@PutMapping("{id}")
-	public ResponseEntity<Producer> updateProducer(@RequestBody Producer producer, @PathVariable("id") Long id) {
+	public ResponseEntity<Producer> updateProducer(@RequestBody Producer producer, @PathVariable("{id}") Long id) {
 		return ResponseEntity.ok(producerService.updateProducer(producer, id));
 	}
 
 	@Override
 	@DeleteMapping("{id}")
-	public ResponseEntity<Void> deleteProducer(@PathVariable("id") Long id) {
+	public ResponseEntity<Void> deleteProducer(@PathVariable("{id}") Long id) {
 		producerService.deleteProducer(id);
 		return ResponseEntity.noContent().build();
 	}
