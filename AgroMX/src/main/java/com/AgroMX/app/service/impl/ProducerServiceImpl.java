@@ -25,6 +25,7 @@ public class ProducerServiceImpl implements ProducerService {
 			throw new IllegalStateException("El productor" + producer.getProducerName() + "ya se ha registrado");
 		}
 		producer.setId(null);
+		producer.setActive(true);
 		Producer newProducer = producerRepository.save( producer );
 		
 		return newProducer;
@@ -44,19 +45,18 @@ public class ProducerServiceImpl implements ProducerService {
 
 	@Override
 	public Producer updateProducer(Producer producer, Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		Producer existingProducer = getProducerByProducerId(id);
+		existingProducer.setProducerName( producer.getProducerName() );
+		return producerRepository.save(existingProducer);
 	}
 
 	@Override
 	public void deleteProducer(Long id) {
-		// TODO Auto-generated method stub
+		Producer existingProducer = getProducerByProducerId(id);
+		existingProducer.setActive(false);
+		producerRepository.save(existingProducer);
 		
 	}
 
-	// @Override
-	// public Iterable<Producer> getAllProducers() {
-	// 	return producerRepository.findAllProducersByActiveTrue();
-	// }
 	
 }
