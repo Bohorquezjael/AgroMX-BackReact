@@ -6,11 +6,12 @@ package com.AgroMX.app.controller;
     
     public interface ProductOrderController {
         
+        // CRUD endpoints
         ResponseEntity<ProductOrder> getProductOrderById(Long id);
             
         ResponseEntity< ProductOrder > createProductOrder(ProductOrder newProductOrder);
         
-        ResponseEntity< ProductOrder > updateProductOrder(ProductOrder productOrder, Long id);
+        ResponseEntity< ProductOrder > updateProductOrder(ProductOrder productOrder, Long id); 
     
         ResponseEntity< Void > deleteProductOrder(Long id);
      
