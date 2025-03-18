@@ -8,6 +8,7 @@ import com.AgroMX.app.model.Producer;
 import com.AgroMX.app.repository.ProducerRepository;
 import com.AgroMX.app.service.ProducerService;
 
+
 @Service
 public class ProducerServiceImpl implements ProducerService {
 	
@@ -19,12 +20,18 @@ public class ProducerServiceImpl implements ProducerService {
 
 	@Override
 	public Producer createProducer(Producer producer) {
-		// TODO
-		return null;
+		Optional<Producer> optionalProducer = producerRepository.findByProducerName(producer.getProducerName());
+		if( optionalProducer.isPresent()) {
+			throw new IllegalStateException("El productor" + producer.getProducerName() + "ya se ha registrado");
+		}
+		producer.setId(null);
+		Producer newProducer = producerRepository.save( producer );
+		
+		return newProducer;
 	}
 
 	@Override
-	public Producer getProducerById(Long id) {
+	public Producer getProducerByProducerId(Long id) {
 		Optional<Producer> existingProducer = producerRepository.findById(id);
 		return existingProducer.orElseThrow(() -> new IllegalStateException("No existe el productor con el id " + id));
 	}
