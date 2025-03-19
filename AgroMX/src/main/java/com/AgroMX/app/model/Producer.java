@@ -10,11 +10,14 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "Producers")
 public class Producer {
+	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@Column(name = "name", length = 45, nullable = false)
 	private String producerName;
+	@Column(name = "active")
+	private boolean active;
 	
 	Producer(){}
 
@@ -39,6 +42,14 @@ public class Producer {
 	public void setProducerName(String producerName) {
 		this.producerName = producerName;
 	}
+	
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
+	}
 
 	@Override
 	public String toString() {
@@ -47,9 +58,12 @@ public class Producer {
 		builder.append(id);
 		builder.append(", producerName=");
 		builder.append(producerName);
+		builder.append(", active=");
+		builder.append(active);
 		builder.append("]");
 		return builder.toString();
 	}
+	
 	
 	
 }

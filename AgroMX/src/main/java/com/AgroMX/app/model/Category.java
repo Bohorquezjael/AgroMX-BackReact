@@ -31,6 +31,10 @@ public class Category {
 		this.categoryUrlImage = categoryUrlImage;
 	}
 
+	public Category(String categoryName, String categoryDescription, String categoryUrlImage) {
+    	this(null, categoryName, categoryDescription, categoryUrlImage);
+    }
+
 	public Long getId() {
 		return id;
 	}
