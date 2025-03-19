@@ -5,10 +5,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+import com.AgroMX.app.model.Category;
 import com.AgroMX.app.repository.CategoryRepository;
 
 @Component
-@Order(1)
+@Order(2)
 public class CategoryDataLoader implements CommandLineRunner{
     @Autowired
     CategoryRepository categoryRepository;

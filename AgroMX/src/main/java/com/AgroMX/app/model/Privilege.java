@@ -1,6 +1,5 @@
 package com.AgroMX.app.model;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Privileges {
+public class Privilege {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
