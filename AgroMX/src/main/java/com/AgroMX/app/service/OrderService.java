@@ -1,20 +1,23 @@
 package com.AgroMX.app.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import java.util.Optional;
 
 import com.AgroMX.app.model.Order;
-import com.AgroMX.app.repository.OrderRepository;
 
-@Service
-public class OrderService {
+/** 
+ * @author
+ * @Bohorquezjael
+*/
 
-    @Autowired
-    private OrderRepository orderRepository;
+public interface OrderService {
+    
+    public Optional<Order> createOrder(Order orderBody);
 
-    public Order getOrderById(Long id) {
-        //TODO: implementar logica de negocio y excepciones personalizadas, posiblemente
-        // implementar loggin 
-        return orderRepository.findById(id).orElseThrow();        
-    }
+    public Optional<Order> getOrder(Long id);
+
+    public Optional<Order> updateOrder(Long id, Order newOrderBody);
+
+    public void deleteOrder(Long id);
+
+    //!TODO add method to get all orders
 }

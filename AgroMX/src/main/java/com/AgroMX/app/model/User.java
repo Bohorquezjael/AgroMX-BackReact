@@ -1,17 +1,22 @@
 package com.AgroMX.app.model;
 
+import java.util.Set;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "Users")
 public class User {
 
-	@Id 
+	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@Column(name = "user_name", length = 50, nullable = false)
@@ -24,10 +29,15 @@ public class User {
 	private String email;
 	@Column(name = "password", nullable = false)
 	private String password;
+	@OneToMany(mappedBy = "userId", cascade = CascadeType.ALL, orphanRemoval = true)
+	private Set<Order> orders;
 
+	public User() {
+	}
 
-	User() {
-	}	
+	public User(Long id) {
+		this.id = id;
+	}
 
 	public User(Long id, String userName, String firstName, String lastName, String email, String password) {
 		this.id = id;
@@ -37,7 +47,6 @@ public class User {
 		this.email = email;
 		this.password = password;
 	}
-
 
 	public Long getId() {
 		return id;
@@ -85,6 +94,14 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public Set<Order> getOrders() {
+		return orders;
+	}
+
+	public void setOrder(Order order) {
+		this.orders.add(order);
 	}
 
 	@Override

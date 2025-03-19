@@ -1,18 +1,13 @@
 package com.AgroMX.app.repository;
 
-import java.util.Set;
-
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.stereotype.Repository;
 
 import com.AgroMX.app.model.Product;
 
+@Repository
 public interface ProductRepository extends CrudRepository<Product, Long>, PagingAndSortingRepository<Product, Long> {
 
-    Set<Product> findByCategory(String category);
     
-    Page<Product> findAllByActiveTrue(Pageable pageable);
-    Page<Product> findAllByActiveFalse(Pageable pageable);
 }

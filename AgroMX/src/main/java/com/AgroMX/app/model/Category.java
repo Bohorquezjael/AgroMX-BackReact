@@ -21,7 +21,7 @@ public class Category {
 	@Column(name = "url_image", length = 300, nullable = false)
 	private String categoryUrlImage;
 	
-	Category(){}
+	public Category(){}
 
 	public Category(Long id, String categoryName, String categoryDescription, String categoryUrlImage) {
 		super();
@@ -30,6 +30,10 @@ public class Category {
 		this.categoryDescription = categoryDescription;
 		this.categoryUrlImage = categoryUrlImage;
 	}
+
+	public Category(String categoryName, String categoryDescription, String categoryUrlImage) {
+    	this(null, categoryName, categoryDescription, categoryUrlImage);
+    }
 
 	public Long getId() {
 		return id;
