@@ -1,5 +1,8 @@
 package com.AgroMX.app.model;
 
+import java.util.Set;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,9 +29,8 @@ public class User {
 	private String email;
 	@Column(name = "password", nullable = false)
 	private String password;
-	@OneToMany()
-	@JoinColumn(name = "order_id", nullable = false)
-	private Order order;
+	@OneToMany(mappedBy = "userId", cascade = CascadeType.ALL, orphanRemoval = true)
+	private Set<Order> orders;
 
 	public User() {
 	}
@@ -94,12 +96,12 @@ public class User {
 		this.password = password;
 	}
 
-	public Order order() {
-		return order;
+	public Set<Order> getOrders() {
+		return orders;
 	}
 
-	public void order(Order order) {
-		this.order = order;
+	public void setOrder(Order order) {
+		this.orders.add(order);
 	}
 
 	@Override

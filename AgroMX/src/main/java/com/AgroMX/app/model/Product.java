@@ -9,10 +9,6 @@ import jakarta.persistence.*;
 		@Id 
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Long id;
-//		@OneToMany
-//		@JoinColumn(name = "order_id", nullable = false)
-//		private Order orderId;
-		
 
 		@ManyToOne
 		@JoinColumn(name = "category_id", nullable = false)
