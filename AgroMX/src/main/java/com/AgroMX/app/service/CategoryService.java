@@ -10,7 +10,7 @@ public interface CategoryService {
 
     Category getCategoryByName(String name);
 
-    Category updateCategory(Long id, Category newCategory);
+    Category updateCategory(Long id, Category category);
 
     Category deleteCategory(Long id);
 }

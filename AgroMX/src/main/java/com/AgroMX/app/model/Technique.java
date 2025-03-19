@@ -20,7 +20,7 @@ public class Technique {
 	@Column(name = "active")
 	private boolean active;
 	
-	Technique(){}
+	public Technique(){}
 
 	public Technique(Long id, String techniqueName, String techniqueDescription) {
 		super();

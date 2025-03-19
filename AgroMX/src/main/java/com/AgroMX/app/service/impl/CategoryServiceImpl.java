@@ -2,7 +2,6 @@ package com.AgroMX.app.service.impl;
 
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.AgroMX.app.model.Category;
@@ -14,7 +13,7 @@ public class CategoryServiceImpl implements CategoryService {
 
     private final CategoryRepository categoryRepository;
 
-    @Autowired
+    
     public CategoryServiceImpl(CategoryRepository categoryRepository) {
         this.categoryRepository = categoryRepository;
     }
@@ -31,7 +30,7 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public Category getCategoryByName(String name) {
-        return categoryRepository.findByName(name).orElse(null);
+        return categoryRepository.findByCategoryName(name).orElse(null);
     }
 
     @Override
