@@ -1,10 +1,15 @@
 package com.AgroMX.app.model;
 
+import java.util.Set;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -18,6 +23,14 @@ public class Producer {
 	private String producerName;
 	@Column(name = "active")
 	private boolean active;
+	
+	@ManyToMany()
+	@JoinTable( // Define la tabla intermedia
+			name="Producers_has_Techniques", // nombre de tabla intermedia
+			joinColumns = @JoinColumn(name = "producer_id"),
+			inverseJoinColumns = @JoinColumn(name = "technique_id")			
+			)
+	private Set<Technique> technique; // Colecciones de techniques de un productor
 	
 	Producer(){}
 
@@ -49,6 +62,14 @@ public class Producer {
 
 	public void setActive(boolean active) {
 		this.active = active;
+	}
+
+	public Set<Technique> getTechnique() {
+		return technique;
+	}
+
+	public void setTechnique(Set<Technique> technique) {
+		this.technique = technique;
 	}
 
 	@Override
