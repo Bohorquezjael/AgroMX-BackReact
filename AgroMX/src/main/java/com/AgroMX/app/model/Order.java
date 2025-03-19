@@ -28,11 +28,6 @@ public class Order {
     @Column(name = "date_time")
     private LocalDateTime dateTime;
 
-    @OneToMany
-    @JoinColumn(name = "products")
+    @OneToMany(mappedBy = "products", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<ProductOrder> products;
-
-    public boolean validateFields() {
-        return true;
-    }
 }
