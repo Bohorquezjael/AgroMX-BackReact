@@ -43,6 +43,7 @@ public class OrderServiceImp implements OrderService {
             throw new OrderException("Cant create a order with a date different from now");
         }
         validateOrderFields(orderBody);
+        //! TODO: calculate total price
 
         return Optional.of(orderRepository.save(orderBody));
     }

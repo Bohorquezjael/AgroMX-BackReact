@@ -18,4 +18,6 @@ public interface OrderService {
     public Optional<Order> updateOrder(Long id, Order newOrderBody);
 
     public void deleteOrder(Long id);
+
+    //!TODO add method to get all orders
 }
