@@ -130,7 +130,7 @@ public class OrderServiceImp implements OrderService {
 
     private boolean validateStock(Set<ProductOrder> products){
         return products.stream()
-                .anyMatch(product -> product.getQuantity() > product.getProductId().getStock());
+                .anyMatch(product -> product.getQuantity() > product.getProduct().getStock());
     }
 
     private Optional<Order> updateFields(Order newOrderBody) {

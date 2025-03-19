@@ -9,18 +9,19 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProductOrder {
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "product_order_id", nullable = false)
-    private Long id;
 
-    
-    private Product productId;
+    @EmbeddedId
+    private ProductOrderId id;
 
     @ManyToOne
+    @MapsId("orderId")
     @JoinColumn(name = "order_id", nullable = false)
-    private Order orderId;
+    private Order order;
+
+    @ManyToOne
+    @MapsId("productId")
+    @JoinColumn(name = "product_id", nullable = false)
+    private Product product;
 
     @Column(name = "quantity")
     private Integer quantity;
