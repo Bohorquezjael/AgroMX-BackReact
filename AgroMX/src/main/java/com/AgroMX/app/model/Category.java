@@ -21,7 +21,7 @@ public class Category {
 	@Column(name = "url_image", length = 300, nullable = false)
 	private String categoryUrlImage;
 	
-	Category(){}
+	public Category(){}
 
 	public Category(Long id, String categoryName, String categoryDescription, String categoryUrlImage) {
 		super();
