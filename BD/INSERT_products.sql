@@ -9,15 +9,15 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Manzana Gala",
+        'Manzana Gala',
         50.00,
-        "kg",
+        'kg',
         200,
         1,
-        "Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E. Contiene antioxidantes y polifenoles. Una manzana equivale a 2/3 de la porción mínima diaria recomendada de fruta.",
-        "La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.
+        'Cosechada localmente por 'Manzanas, La Conchita'. Fuente de fibra, vitamina C y E. Contiene antioxidantes y polifenoles. Una manzana equivale a 2/3 de la porción mínima diaria recomendada de fruta.',
+        'La manzana es una fruta rica en nutrientes. Fuente de fibra, vitamina C, E, K, potasio, cobre, además contiene antioxidantes y polifenoles.
         Nuestra Manzana Gala está producida localmente por Manzanas, La Conchita, una productora familiar que cosecha sin agroquímicos, con técnicas sostenibles.
-        Comprando apoyas a la economía local, la reducción de la contaminación y cuidas tu salud.",
+        Comprando apoyas a la economía local, la reducción de la contaminación y cuidas tu salud.',
         1
     );
 
@@ -32,14 +32,14 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Plátano Dominico",
+        'Plátano Dominico',
         25.00,
-        "kg",
+        'kg',
         100,
         1,
-        "Plátano orgánico producido por 'Bananas Karla' en el Estado de México. Fuente de fibra, potasio y pectina. Contiene probióticos. Un plátano proporciona 1/4 de la cantidad diaria recomendada de Vitamina B6",
-        "El plátano es una baya rica en nutrientes. Buena fuente de fibra, potasio, pectina y vitamina B6, además contiene probióticos, que mejoran la digestión y proporcionan energía.
-	Nuestro Plátano Dominico está producido por 'Bananas Karla', una productora del Estado de Mexico que cosecha sin agroquímicos, con técnicas sostenibles",
+        'Plátano orgánico producido por 'Bananas Karla' en el Estado de México. Fuente de fibra, potasio y pectina. Contiene probióticos. Un plátano proporciona 1/4 de la cantidad diaria recomendada de Vitamina B6',
+        'El plátano es una baya rica en nutrientes. Buena fuente de fibra, potasio, pectina y vitamina B6, además contiene probióticos, que mejoran la digestión y proporcionan energía.
+	Nuestro Plátano Dominico está producido por 'Bananas Karla', una productora del Estado de Mexico que cosecha sin agroquímicos, con técnicas sostenibles',
         7
     );
 
@@ -54,15 +54,15 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Naranja Valencia",
+        'Naranja Valencia',
         31.00,
-        "kg",
+        'kg',
         200,
         1,
-        "Cosechada por la coperativa 'Naranjas Dulces' en Hidalgo. Fuente de fibra, potasio y diversos antioxidantes, entre ellos la vitamina C, de la cual provee el 100% de la dosis diaria recomendada",
-        "La naranja es una fruta rica en nutrientes. Fuente de distintas vitaminas y antioxidantes, como el ácido fólico, la vitamina C y los flavonoides que el cuerpo utiliza para su función inmunológica.  
+        'Cosechada por la coperativa 'Naranjas Dulces' en Hidalgo. Fuente de fibra, potasio y diversos antioxidantes, entre ellos la vitamina C, de la cual provee el 100% de la dosis diaria recomendada',
+        'La naranja es una fruta rica en nutrientes. Fuente de distintas vitaminas y antioxidantes, como el ácido fólico, la vitamina C y los flavonoides que el cuerpo utiliza para su función inmunológica.  
 	Nuestra naranja está producida por 'Naranjas Dulces', una coperativa de Hidalgo que cosecha sin agroquímicos, con técnicas sostenibles.
-	Comprando estimulas la economía local y consumes responsablemente",
+	Comprando estimulas la economía local y consumes responsablemente',
         2
     );
 
@@ -77,15 +77,15 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Zanahoria",
+        'Zanahoria',
         14.90,
-        "kg",
+        'kg',
         300,
         2,
-        "Cosechada localmente por 'Grupo Frucat'. Fuente de vitaminas. Contiene antioxidantes y betacarotenos. Una zanahoria equivale a 1/4 de la porción mínima diaria recomendada de vitamina A",
-        "La zanahoria es una hortaliza rica en nutrientes. Buena fuente de vitamina A, C, K, potasio, y antioxidantes como el betacaroteno. Es excelente para la salud ocular, fortalece el sistema inmunológico y promueve la salud de la piel. 
+        'Cosechada localmente por 'Grupo Frucat'. Fuente de vitaminas. Contiene antioxidantes y betacarotenos. Una zanahoria equivale a 1/4 de la porción mínima diaria recomendada de vitamina A',
+        'La zanahoria es una hortaliza rica en nutrientes. Buena fuente de vitamina A, C, K, potasio, y antioxidantes como el betacaroteno. Es excelente para la salud ocular, fortalece el sistema inmunológico y promueve la salud de la piel. 
 	Nuestra Zanahoria está producida localmente por 'Grupo Frucat', una productora familiar que cosecha sin agroquímicos, utilizando técnicas sostenibles. 
-    Al comprar, apoyas a la economía local, reduces la contaminación y mejoras tu bienestar.",
+    Al comprar, apoyas a la economía local, reduces la contaminación y mejoras tu bienestar.',
         5
     );
 
@@ -100,13 +100,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Tomate verde",
+        'Tomate verde',
         28.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Tomate orgánico producido por 'ASCENZA' en el Estado de San Luis Potosí. Fuente de vitamina C, A, potasio y antioxidantes. Ayuda a fortalecer el sistema inmunológico y mejora la digestión.",
-        "El tomate es un alimento nutritivo que aporta vitaminas (especialmente vitamina C y A ), minerales, fibra y antioxidantes que ayudan a combatir el envejecimiento celular. Nuestro Tomate Orgánico está producido por 'ASCENZA', una productora local en San Luis Potosí que cosecha sin agroquímicos y utiliza prácticas agrícolas sostenibles.  Comprando, apoyas la economía local, fomentas la agricultura sostenible y cuidas tu salud",
+        'Tomate orgánico producido por 'ASCENZA' en el Estado de San Luis Potosí. Fuente de vitamina C, A, potasio y antioxidantes. Ayuda a fortalecer el sistema inmunológico y mejora la digestión.',
+        'El tomate es un alimento nutritivo que aporta vitaminas (especialmente vitamina C y A ), minerales, fibra y antioxidantes que ayudan a combatir el envejecimiento celular. Nuestro Tomate Orgánico está producido por 'ASCENZA', una productora local en San Luis Potosí que cosecha sin agroquímicos y utiliza prácticas agrícolas sostenibles.  Comprando, apoyas la economía local, fomentas la agricultura sostenible y cuidas tu salud',
         9
     );
 
@@ -123,13 +123,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Lechuga orejona",
+        'Lechuga orejona',
         14.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Lechuga fresca y crujiente, ideal para ensaladas y platillos saludables.",
-        "Baja en calorías, rica en fibra, vitaminas A y K.",
+        'Lechuga fresca y crujiente, ideal para ensaladas y platillos saludables.',
+        'Baja en calorías, rica en fibra, vitaminas A y K.',
         3
     );
 
@@ -144,13 +144,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Pimiento rojo",
+        'Pimiento rojo',
         26.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Pimiento orgánico producido por 'Hortalizas del Valle'. Rico en vitamina C y antioxidantes. Ideal para ensaladas y platillos salteados.",
-        "El pimiento es una hortaliza rica en nutrientes. Fuente de vitaminas C, A, B6 y ácido fólico. Contiene antioxidantes que ayudan a fortalecer el sistema inmunológico.",
+        'Pimiento orgánico producido por 'Hortalizas del Valle'. Rico en vitamina C y antioxidantes. Ideal para ensaladas y platillos salteados.',
+        'El pimiento es una hortaliza rica en nutrientes. Fuente de vitaminas C, A, B6 y ácido fólico. Contiene antioxidantes que ayudan a fortalecer el sistema inmunológico.',
         6
     );
 
@@ -165,13 +165,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Cebolla",
+        'Cebolla',
         15.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Cebolla blanca cultivada por 'Productores Unidos'. Rica en compuestos sulfúricos y antioxidantes. Base fundamental de la cocina mexicana.",
-        "La cebolla es un vegetal versátil rico en antioxidantes y compuestos sulfúricos. Ayuda a fortalecer el sistema inmunológico y tiene propiedades antiinflamatorias.",
+        'Cebolla blanca cultivada por 'Productores Unidos'. Rica en compuestos sulfúricos y antioxidantes. Base fundamental de la cocina mexicana.',
+        'La cebolla es un vegetal versátil rico en antioxidantes y compuestos sulfúricos. Ayuda a fortalecer el sistema inmunológico y tiene propiedades antiinflamatorias.',
         8
     );
 
@@ -186,13 +186,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Ajo",
+        'Ajo',
         8.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Ajo fresco cultivado por 'Ajos del Centro'. Rico en alicina y compuestos sulfúricos. Condimento esencial en la cocina.",
-        "El ajo es un alimento con propiedades antimicrobianas y antiinflamatorias. Rico en compuestos beneficiosos para la salud cardiovascular.",
+        'Ajo fresco cultivado por 'Ajos del Centro'. Rico en alicina y compuestos sulfúricos. Condimento esencial en la cocina.',
+        'El ajo es un alimento con propiedades antimicrobianas y antiinflamatorias. Rico en compuestos beneficiosos para la salud cardiovascular.',
         4
     );
 
@@ -207,13 +207,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Papa",
+        'Papa',
         10.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Papa blanca cultivada por 'Tubérculos San Juan'. Rica en almidón y potasio. Versátil para diferentes preparaciones culinarias.",
-        "La papa es un tubérculo nutritivo rico en carbohidratos complejos, potasio y vitamina C. Excelente fuente de energía y fibra.",
+        'Papa blanca cultivada por 'Tubérculos San Juan'. Rica en almidón y potasio. Versátil para diferentes preparaciones culinarias.',
+        'La papa es un tubérculo nutritivo rico en carbohidratos complejos, potasio y vitamina C. Excelente fuente de energía y fibra.',
         7
     );
 
@@ -228,13 +228,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Calabacín",
+        'Calabacín',
         24.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Calabacín fresco cultivado por 'Huertos Orgánicos'. Bajo en calorías y rico en agua. Ideal para dietas saludables.",
-        "El calabacín es una hortaliza baja en calorías y rica en agua. Aporta vitaminas, minerales y antioxidantes importantes para una dieta equilibrada.",
+        'Calabacín fresco cultivado por 'Huertos Orgánicos'. Bajo en calorías y rico en agua. Ideal para dietas saludables.',
+        'El calabacín es una hortaliza baja en calorías y rica en agua. Aporta vitaminas, minerales y antioxidantes importantes para una dieta equilibrada.',
         5
     );
 
@@ -249,13 +249,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Brócoli",
+        'Brócoli',
         35.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Brócoli fresco cultivado por 'Verduras del Campo'. Rico en fibra y vitamina C. Excelente fuente de antioxidantes.",
-        "El brócoli es una verdura crucífera rica en vitamina C, K, fibra y compuestos anticancerígenos. Fortalece el sistema inmune y promueve la salud celular.",
+        'Brócoli fresco cultivado por 'Verduras del Campo'. Rico en fibra y vitamina C. Excelente fuente de antioxidantes.',
+        'El brócoli es una verdura crucífera rica en vitamina C, K, fibra y compuestos anticancerígenos. Fortalece el sistema inmune y promueve la salud celular.',
         8
     );
 
@@ -270,13 +270,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Espinaca",
+        'Espinaca',
         28.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Espinaca fresca cultivada por 'Hortalizas Verdes'. Rica en hierro y ácido fólico. Ideal para ensaladas y guisos.",
-        "La espinaca es una verdura de hoja verde rica en hierro, ácido fólico y antioxidantes. Fortalece el sistema inmune y favorece la salud cardiovascular.",
+        'Espinaca fresca cultivada por 'Hortalizas Verdes'. Rica en hierro y ácido fólico. Ideal para ensaladas y guisos.',
+        'La espinaca es una verdura de hoja verde rica en hierro, ácido fólico y antioxidantes. Fortalece el sistema inmune y favorece la salud cardiovascular.',
         2
     );
 
@@ -291,13 +291,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Pepino",
+        'Pepino',
         18.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Pepino fresco cultivado por 'Huertos Frescos'. Alto contenido de agua y bajo en calorías. Ideal para ensaladas y bebidas refrescantes.",
-        "El pepino es una hortaliza refrescante rica en agua y minerales. Ayuda a la hidratación y tiene propiedades antiinflamatorias.",
+        'Pepino fresco cultivado por 'Huertos Frescos'. Alto contenido de agua y bajo en calorías. Ideal para ensaladas y bebidas refrescantes.',
+        'El pepino es una hortaliza refrescante rica en agua y minerales. Ayuda a la hidratación y tiene propiedades antiinflamatorias.',
         4
     );
 
@@ -312,13 +312,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Calabaza",
+        'Calabaza',
         48.00,
-        "kg",
+        'kg',
         200,
         2,
-        "Calabaza fresca cultivada por 'Productores del Valle'. Rica en betacarotenos y fibra. Versátil para sopas y guisos.",
-        "La calabaza es una hortaliza rica en betacarotenos, vitamina A y fibra. Fortalece el sistema inmune y favorece la salud ocular.",
+        'Calabaza fresca cultivada por el grupo Productores del Valle. Rica en betacarotenos y fibra. Versátil para sopas y guisos.',
+        'La calabaza es una hortaliza rica en betacarotenos, vitamina A y fibra. Fortalece el sistema inmune y favorece la salud ocular.',
         6
     );
 
@@ -945,16 +945,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de amaranto",
+    'Semilla de amaranto',
     2.80,
-    "kg",
+    'kg',
     70,
     3,
-    "Semilla rica en proteínas, hierro y calcio.",
-    "Ayuda a mejorar la salud ósea y cardiovascular.",
-    9
+    'Semilla rica en proteínas, hierro y calcio.',
+    'Ayuda a mejorar la salud ósea y cardiovascular.',
+    9,
+    'https://acdn.mitiendanube.com/stores/139/211/products/0092-semillas-de-amaranto-tienda-oeste-thumb-e3802a8fb1ed1043c815132810551546-640-0.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -964,16 +966,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Composta Orgánica",
+    'Composta Orgánica',
     150.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Mezcla de materia orgánica 100% natural, ideal para enriquecer el suelo y mejorar la fertilidad.",
-    "Aporta nutrientes esenciales a la tierra, mejora la retención de agua y fomenta la actividad microbiana beneficiosa.",
-    3
+    'Mezcla de materia orgánica 100% natural, ideal para enriquecer el suelo y mejorar la fertilidad.',
+    'Aporta nutrientes esenciales a la tierra, mejora la retención de agua y fomenta la actividad microbiana beneficiosa.',
+    3,
+    'https://blog.homedepot.com.mx/wp-content/uploads/2022/03/Composta01.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -983,16 +987,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Mermelada de Fresa Orgánica",
+    'Mermelada de Fresa Orgánica',
     85.00,
-    "tarro",
+    'tarro',
     100,
     3,
-    "Mermelada artesanal elaborada con fresas orgánicas y endulzada con piloncillo.",
-    "Conserva el sabor y los nutrientes de la fruta sin conservadores artificiales. Rica en antioxidantes y vitamina C.",
-    10
+    'Mermelada artesanal elaborada con fresas orgánicas y endulzada con piloncillo.',
+    'Conserva el sabor y los nutrientes de la fruta sin conservadores artificiales. Rica en antioxidantes y vitamina C.',
+    10,
+    'https://m.media-amazon.com/images/I/81p56G8wfpL.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1002,16 +1008,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Humus de Lombriz",
+    'Humus de Lombriz',
     120.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Abono orgánico 100% natural obtenido a partir del proceso de lombricomposta, ideal para enriquecer la tierra.",
-    "Mejora la estructura del suelo, aumenta la retención de agua y promueve el crecimiento de microorganismos beneficiosos.",
-    7
+    'Abono orgánico 100% natural obtenido a partir del proceso de lombricomposta, ideal para enriquecer la tierra.',
+    'Mejora la estructura del suelo, aumenta la retención de agua y promueve el crecimiento de microorganismos beneficiosos.',
+    7,
+    'https://www.deraizchile.cl/cdn/shop/articles/pexels-sippakorn-yamkasikorn-3696170.jpg?v=1677109327'
 );
 INSERT INTO products (
     product_name,
@@ -1021,16 +1029,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Conserva de Chiles en Vinagre",
+    'Conserva de Chiles en Vinagre',
     95.00,
-    "frasco",
+    'frasco',
     100,
     3,
-    "Chiles jalapeños en conserva con zanahorias, cebolla y especias, preparados de manera artesanal.",
-    "Ricos en vitamina C y capsaicina, ideales para acompañar comidas y aportar un toque picante y ácido.",
-    2
+    'Chiles jalapeños en conserva con zanahorias, cebolla y especias, preparados de manera artesanal.',
+    'Ricos en vitamina C y capsaicina, ideales para acompañar comidas y aportar un toque picante y ácido.',
+    2,
+    'https://www.maricruzavalos.com/wp-content/uploads/2014/09/chiles-en-vinagre-envasado.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1040,16 +1050,19 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Composta de Residuos de Café",
+    'Composta de Residuos de Café',
     135.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Abono natural elaborado con residuos de café, ideal para mejorar la fertilidad del suelo y el crecimiento de las plantas.",
-    "Aporta nitrógeno, mejora la retención de humedad y fomenta la actividad microbiana beneficiosa en la tierra.",
-    4
+    'Abono natural elaborado con residuos de café, ideal para mejorar la fertilidad del suelo y el crecimiento de las plantas.',
+    'Aporta nitrógeno, mejora la retención de humedad y fomenta la actividad microbiana beneficiosa en la tierra.',
+    4,
+    'https://latarderm.blob.core.windows.net/images/2021/01/28/entrale2021012901.jpg'
+
 );
 INSERT INTO products (
     product_name,
@@ -1059,16 +1072,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Miel Orgánica Multifloral",
+    'Miel Orgánica Multifloral',
     180.00,
-    "tarro",
+    'tarro',
     100,
     3,
-    "Miel pura y sin aditivos, obtenida de colmenas ubicadas en ecosistemas agroecológicos.",
-    "Rica en antioxidantes, enzimas naturales y propiedades antibacterianas.",
-    6
+    'Miel pura y sin aditivos, obtenida de colmenas ubicadas en ecosistemas agroecológicos.',
+    'Rica en antioxidantes, enzimas naturales y propiedades antibacterianas.',
+    6,
+    'https://chefpatygarcia.com/cdn/shop/files/image00033.jpg?v=1709930928&width=1445'
 );
 INSERT INTO products (
     product_name,
@@ -1078,16 +1093,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Bokashi Casero",
+    'Bokashi Casero',
     200.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Abono fermentado elaborado con salvado de trigo, melaza y microorganismos benéficos.",
-    "Aporta microorganismos que mejoran la salud del suelo, favorece la descomposición de materia orgánica y aumenta la disponibilidad de nutrientes.",
-    8
+    'Abono fermentado elaborado con salvado de trigo, melaza y microorganismos benéficos.',
+    'Aporta microorganismos que mejoran la salud del suelo, favorece la descomposición de materia orgánica y aumenta la disponibilidad de nutrientes.',
+    8,
+    'https://cdn0.ecologiaverde.com/es/posts/2/0/1/bokashi_o_bocashi_compost_que_es_y_como_hacerlo_2102_orig.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1097,16 +1114,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Conserva de Nopales en Salmuera",
+    'Conserva de Nopales en Salmuera',
     70.00,
-    "frasco",
+    'frasco',
     100,
     3,
-    "Nopales tiernos en conserva de agua y sal, listos para su consumo en ensaladas, guisados o como acompañamiento.",
-    "Ricos en fibra, antioxidantes y compuestos que regulan los niveles de glucosa en sangre.",
-    9
+    'Nopales tiernos en conserva de agua y sal, listos para su consumo en ensaladas, guisados o como acompañamiento.',
+    'Ricos en fibra, antioxidantes y compuestos que regulan los niveles de glucosa en sangre.',
+    9,
+    'https://i.ytimg.com/vi/dSoatFQWQro/maxresdefault.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1116,16 +1135,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Composta de Residuos de Cacao",
+    'Composta de Residuos de Cacao',
     145.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Abono orgánico elaborado con cáscaras de cacao, ideal para enriquecer suelos y promover el crecimiento saludable de las plantas.",
-    "Aporta nutrientes esenciales como potasio, fósforo y calcio. Mejora la estructura del suelo y favorece la actividad microbiana.",
-    1
+    'Abono orgánico elaborado con cáscaras de cacao, ideal para enriquecer suelos y promover el crecimiento saludable de las plantas.',
+    'Aporta nutrientes esenciales como potasio, fósforo y calcio. Mejora la estructura del suelo y favorece la actividad microbiana.',
+    1,
+    'https://www.cdt.cl/wp-content/uploads/2022/02/Cacao-Eco-Village-un-lugar-hecho-con-residuos-de-cacao-impresos-en-3D-2-1024x683.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1135,16 +1156,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Chutney de Mango Orgánico",
+    'Chutney de Mango Orgánico',
     130.00,
-    "tarro",
+    'tarro',
     100,
     3,
-    "Chutney artesanal elaborado con mango de temporada, especias y vinagre natural.",
-    "Alto en antioxidantes, vitamina C y probióticos naturales debido a su proceso de fermentación.",
-    10
+    'Chutney artesanal elaborado con mango de temporada, especias y vinagre natural.',
+    'Alto en antioxidantes, vitamina C y probióticos naturales debido a su proceso de fermentación.',
+    10,
+    'https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pif/pif61995/y/10.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1154,16 +1177,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Abono Orgánico con Residuos de Cítricos",
+    'Abono Orgánico con Residuos de Cítricos',
     160.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Fertilizante natural hecho a base de cáscaras de naranja y limón, ideal para suelos ácidos.",
-    "Aporta ácido cítrico natural, mejora la textura del suelo y repele plagas de manera ecológica.",
-    3
+    'Fertilizante natural hecho a base de cáscaras de naranja y limón, ideal para suelos ácidos.',
+    'Aporta ácido cítrico natural, mejora la textura del suelo y repele plagas de manera ecológica.',
+    3,
+    'https://a.storyblok.com/f/160385/b596fa5d64/residuos_frutas.jpg/m/?w=256&q=100'
 );
 INSERT INTO products (
     product_name,
@@ -1173,16 +1198,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Jitomates Deshidratados en Aceite de Oliva",
+    'Jitomates Deshidratados en Aceite de Oliva',
     155.00,
-    "frasco",
+    'frasco',
     100,
     3,
-    "Jitomates deshidratados al sol y conservados en aceite de oliva con hierbas aromáticas.",
-    "Ricos en licopeno, vitamina A y antioxidantes naturales. Excelente fuente de sabor para ensaladas y platillos mediterráneos.",
-    5
+    'Jitomates deshidratados al sol y conservados en aceite de oliva con hierbas aromáticas.',
+    'Ricos en licopeno, vitamina A y antioxidantes naturales. Excelente fuente de sabor para ensaladas y platillos mediterráneos.',
+    5,
+    'https://cdn.elcocinerocasero.com/imagen/receta/1000/2015-11-11-19-02-41/tomates-secos-en-aceite-de-oliva.jpeg'
 );
 INSERT INTO products (
     product_name,
@@ -1192,16 +1219,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Fertilizante Orgánico de Algas Marinas",
+    'Fertilizante Orgánico de Algas Marinas',
     175.00,
-    "litro",
+    'litro',
     100,
     4,
-    "Abono líquido elaborado a partir de algas marinas, rico en minerales y hormonas naturales de crecimiento.",
-    "Mejora la absorción de nutrientes, estimula el crecimiento radicular y fortalece la resistencia de las plantas.",
-    7
+    'Abono líquido elaborado a partir de algas marinas, rico en minerales y hormonas naturales de crecimiento.',
+    'Mejora la absorción de nutrientes, estimula el crecimiento radicular y fortalece la resistencia de las plantas.',
+    7,
+    'https://royalbrinkman.com.mx/images/2021/08/algas-como-abonos.jpg'
 );
 INSERT INTO products (
     product_name,
@@ -1211,16 +1240,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Pepinillos Orgánicos en Salmuera",
+    'Pepinillos Orgánicos en Salmuera',
     90.00,
-    "frasco",
+    'frasco',
     100,
     3,
-    "Pepinillos encurtidos en una mezcla de sal, vinagre de manzana y especias naturales.",
-    "Ricos en probióticos naturales, ideales para la digestión y la salud intestinal.",
-    2
+    'Pepinillos encurtidos en una mezcla de sal, vinagre de manzana y especias naturales.',
+    'Ricos en probióticos naturales, ideales para la digestión y la salud intestinal.',
+    2,
+    'https://media.istockphoto.com/id/1308974020/es/foto/pepinillos-en-un-frasco-aislado-de-blanco.jpg?s=612x612&w=0&k=20&c=mu6XconkOAmA3TmddrvvrkQbRvUh9eMmueS42-bR5F0='
 );
 INSERT INTO products (
     product_name,
@@ -1230,16 +1261,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUES (
-    "Biochar para Enriquecimiento del Suelo",
+    'Biochar para Enriquecimiento del Suelo',
     190.00,
-    "kg",
+    'kg',
     100,
     4,
-    "Carbón vegetal activado para mejorar la retención de agua y nutrientes en el suelo.",
-    "Ayuda a reducir la erosión, mejora la fertilidad del suelo y captura carbono de la atmósfera.",
-    4
+    'Carbón vegetal activado para mejorar la retención de agua y nutrientes en el suelo.',
+    'Ayuda a reducir la erosión, mejora la fertilidad del suelo y captura carbono de la atmósfera.',
+    4,
+    'https://i0.wp.com/www.bioeconomia.info/wp-content/uploads/2022/09/El-biocarbon-y-su-enorme-potencial-para-secuestrar-carbono.jpg?fit=1200%2C797&amp;ssl=1'
 );
 
 
