@@ -333,13 +333,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Limón",
+        'Limón',
         12.00,
-        "kg",
+        'kg',
         250,
         1,
-        "Fruta cítrica con alto contenido de vitamina C.",
-        "Fortalece el sistema inmunológico, mejora la digestión y tiene propiedades antioxidantes.",
+        'Fruta cítrica con alto contenido de vitamina C.',
+        'Fortalece el sistema inmunológico, mejora la digestión y tiene propiedades antioxidantes.',
         3
     );
 
@@ -354,13 +354,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Uva",
+        'Uva',
         60.00,
-        "kg",
+        'kg',
         180,
         1,
-        "Pequeñas frutas dulces y jugosas, disponibles en variedad roja y verde.",
-        "Ricas en antioxidantes, benefician la circulación y la salud del corazón.",
+        'Pequeñas frutas dulces y jugosas, disponibles en variedad roja y verde.',
+        'Ricas en antioxidantes, benefician la circulación y la salud del corazón.',
         5
     );
 
@@ -375,13 +375,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Fresa",
+        'Fresa',
         72.00,
-        "kg",
+        'kg',
         120,
         1,
-        "Fruta roja y jugosa con un delicioso sabor dulce y ácido.",
-        "Rica en vitamina C, fibra y antioxidantes que favorecen la salud de la piel y el sistema inmunológico.",
+        'Fruta roja y jugosa con un delicioso sabor dulce y ácido.',
+        'Rica en vitamina C, fibra y antioxidantes que favorecen la salud de la piel y el sistema inmunológico.',
         7
     );
 
@@ -396,13 +396,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Kiwi",
+        'Kiwi',
         43.00,
-        "kg",
+        'kg',
         90,
         1,
-        "Fruta exótica con pulpa verde y alto contenido de vitamina C.",
-        "Mejora la digestión, refuerza el sistema inmunológico y es excelente para la piel.",
+        'Fruta exótica con pulpa verde y alto contenido de vitamina C.',
+        'Mejora la digestión, refuerza el sistema inmunológico y es excelente para la piel.',
         2
     );
 
@@ -417,13 +417,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Mango petacón",
+        'Mango petacón',
         52.00,
-        "kg",
+        'kg',
         140,
         1,
-        "Mango dulce y jugoso, ideal para postres y licuados.",
-        "Rico en fibra, vitamina A y C, favorece la digestión y fortalece el sistema inmunológico.",
+        'Mango dulce y jugoso, ideal para postres y licuados.',
+        'Rico en fibra, vitamina A y C, favorece la digestión y fortalece el sistema inmunológico.',
         4
     );
 
@@ -438,13 +438,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Piña miel",
+        'Piña miel',
         60.00,
-        "kg",
+        'kg',
         110,
         1,
-        "Fruta tropical de sabor dulce y refrescante.",
-        "Contiene bromelina, una enzima que facilita la digestión y tiene propiedades antiinflamatorias.",
+        'Fruta tropical de sabor dulce y refrescante.',
+        'Contiene bromelina, una enzima que facilita la digestión y tiene propiedades antiinflamatorias.',
         6
     );
 
@@ -459,13 +459,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Sandía",
+        'Sandía',
         84.00,
-        "kg",
+        'kg',
         95,
         1,
-        "Fruta grande y jugosa con alto contenido de agua.",
-        "Hidrata el cuerpo, es rica en antioxidantes y ayuda a la recuperación muscular.",
+        'Fruta grande y jugosa con alto contenido de agua.',
+        'Hidrata el cuerpo, es rica en antioxidantes y ayuda a la recuperación muscular.',
         8
     );
 
@@ -480,13 +480,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Melón",
+        'Melón',
         67.00,
-        "kg",
+        'kg',
         105,
         1,
-        "Fruta refrescante de sabor dulce y textura suave.",
-        "Hidratante natural, rica en vitaminas A y C, excelente para la piel.",
+        'Fruta refrescante de sabor dulce y textura suave.',
+        'Hidratante natural, rica en vitaminas A y C, excelente para la piel.',
         9
     );
 
@@ -501,13 +501,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Lima criolla",
+        'Lima criolla',
         40.00,
-        "kg",
+        'kg',
         150,
         1,
-        "Cítrico aromático con un toque dulce.",
-        "Ayuda a la digestión y refuerza el sistema inmunológico.",
+        'Cítrico aromático con un toque dulce.',
+        'Ayuda a la digestión y refuerza el sistema inmunológico.',
         1
     );
 
@@ -522,13 +522,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Mandarina",
+        'Mandarina',
         26.00,
-        "kg",
+        'kg',
         170,
         1,
-        "Pequeño cítrico de sabor dulce y fácil de pelar.",
-        "Fuente de vitamina C, fortalece el sistema inmunológico y mejora la piel.",
+        'Pequeño cítrico de sabor dulce y fácil de pelar.',
+        'Fuente de vitamina C, fortalece el sistema inmunológico y mejora la piel.',
         10
     );
 
@@ -543,13 +543,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Toronja",
+        'Toronja',
         31.00,
-        "kg",
+        'kg',
         130,
         1,
-        "Fruta cítrica con un característico sabor agridulce.",
-        "Ayuda a regular el metabolismo y contiene antioxidantes.",
+        'Fruta cítrica con un característico sabor agridulce.',
+        'Ayuda a regular el metabolismo y contiene antioxidantes.',
         3
     );
 
@@ -564,13 +564,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Chirimoya",
+        'Chirimoya',
         72.00,
-        "kg",
+        'kg',
         85,
         1,
-        "Fruta tropical cremosa y de sabor dulce.",
-        "Rica en vitaminas B y C, excelente fuente de energía.",
+        'Fruta tropical cremosa y de sabor dulce.',
+        'Rica en vitaminas B y C, excelente fuente de energía.',
         5
     );
 
@@ -585,13 +585,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Chile guajillo seco",
+        'Chile guajillo seco',
         0.70,
-        "kg",
+        'kg',
         130,
         2,
-        "Chile seco de color rojo brillante y sabor ligeramente picante.",
-        "Muy utilizado en la gastronomía mexicana para salsas y guisos.",
+        'Chile seco de color rojo brillante y sabor ligeramente picante.',
+        'Muy utilizado en la gastronomía mexicana para salsas y guisos.',
         7
     );
 
@@ -606,13 +606,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Chile ancho seco",
+        'Chile ancho seco',
         0.80,
-        "kg",
+        'kg',
         120,
         2,
-        "Chile seco de sabor dulce y ahumado.",
-        "Aporta un toque especial a salsas y platillos tradicionales.",
+        'Chile seco de sabor dulce y ahumado.',
+        'Aporta un toque especial a salsas y platillos tradicionales.',
         2
     );
 
@@ -627,13 +627,13 @@ INSERT INTO
         benefits,
         fk_producer_id
     ) VALUE (
-        "Chile pasilla seco",
+        'Chile pasilla seco',
         0.90,
-        "kg",
+        'kg',
         110,
         2,
-        "Chile seco de sabor profundo y suave picor.",
-        "Ingrediente esencial en moles y salsas mexicanas.",
+        'Chile seco de sabor profundo y suave picor.',
+        'Ingrediente esencial en moles y salsas mexicanas.',
         4
     );
 
@@ -646,16 +646,18 @@ INSERT INTO
         fk_category_id,
         description,
         benefits,
-        fk_producer_id
+        fk_producer_id,
+        url,
     ) VALUE (
-        "Chile chipotle seco",
+        'Chile chipotle seco',
         1.00,
-        "kg",
+        'kg',
         100,
         2,
-        "Chile seco ahumado con un sabor característico.",
-        "Aporta un toque picante y ahumado a diversos platillos.",
-        6
+        'Chile seco ahumado con un sabor característico.',
+        'Aporta un toque picante y ahumado a diversos platillos.',
+        6,
+        'https://mercadoacasa.mx/cdn/shop/products/chilechipotleseco_1296x.jpg?v=1616440406'
     );
 INSERT INTO products (
     product_name,
@@ -665,16 +667,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Chile cascabel seco",
+    'Chile cascabel seco',
     0.90,
-    "kg",
+    'kg',
     110,
     2,
-    "Chile seco con un sabor suave y picante.",
-    "Ideal para salsas y moles.",
-    8
+    'Chile seco con un sabor suave y picante.',
+    'Ideal para salsas y moles.',
+    8,
+    'https://mercadoacasa.mx/cdn/shop/products/chilecascabel_1296x.jpg?v=1602173310'
 );
 
 INSERT INTO products (
@@ -685,16 +689,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Chile mulato seco",
+    'Chile mulato seco',
     0.80,
-    "kg",
+    'kg',
     120,
     2,
-    "Chile seco con un sabor dulce y ligeramente ahumado.",
-    "Aporta un toque suave a los platillos mexicanos.",
-    9
+    'Chile seco con un sabor dulce y ligeramente ahumado.',
+    'Aporta un toque suave a los platillos mexicanos.',
+    9,
+    'https://clickabasto.com/cdn/shop/products/chile-mulato2_500x500.jpg?v=1655677333'
 );
 
 INSERT INTO products (
@@ -705,16 +711,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Chile de agua seco",
+    'Chile de agua seco',
     0.70,
-    "kg",
+    'kg',
     130,
     2,
-    "Chile seco con sabor medio y ligeramente picante.",
-    "Perfecto para salsas y guisos.",
-    1
+    'Chile seco con sabor medio y ligeramente picante.',
+    'Perfecto para salsas y guisos.',
+    1,
+    'https://www.mitiendita.fr/106-home_default/piment-de-guajillo-100g.jpg'
 );
 
 INSERT INTO products (
@@ -725,16 +733,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Chile manzano",
+    'Chile manzano',
     0.80,
-    "kg",
+    'kg',
     120,
     2,
-    "Chile fresco con un sabor picante y afrutado.",
-    "Ideal para ensaladas y salsas frescas.",
-    10
+    'Chile fresco con un sabor picante y afrutado.',
+    'Ideal para ensaladas y salsas frescas.',
+    10,
+    'https://mercadoacasa.mx/cdn/shop/products/0000000004711L1_1296x.jpg?v=1591677446'
 );
 
 INSERT INTO products (
@@ -745,16 +755,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Chile piquín seco",
+    'Chile piquín seco',
     0.90,
-    "kg",
+    'kg',
     110,
     2,
-    "Chile seco pequeño y muy picante.",
-    "Aporta un nivel alto de picante a los platillos.",
-    5
+    'Chile seco pequeño y muy picante.',
+    'Aporta un nivel alto de picante a los platillos.',
+    5,
+    'https://zaandeea.com/wp-content/uploads/2021/03/Chile-Piquin-Entero-Seco.jpeg'
 );
 
 INSERT INTO products (
@@ -765,16 +777,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Aguacate",
+    'Aguacate',
     1.00,
-    "unidad",
+    'unidad',
     100,
     2,
-    "Fruta rica en grasas saludables y fibra.",
-    "Beneficios para la salud cardiovascular y digestiva.",
-    9
+    'Fruta rica en grasas saludables y fibra.',
+    'Beneficios para la salud cardiovascular y digestiva.',
+    9,
+    'https://mercadoacasa.mx/cdn/shop/products/aguacate_1080x.jpg?v=1587667720'
 );
 
 INSERT INTO products (
@@ -785,16 +799,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Chile de onza seco",
+    'Chile de onza seco',
     0.90,
-    "kg",
+    'kg',
     110,
     2,
-    "Chile seco con un toque picante y ahumado.",
-    "Ideal para salsas y adobos.",
-    8
+    'Chile seco con un toque picante y ahumado.',
+    'Ideal para salsas y adobos.',
+    8,
+    'https://http2.mlstatic.com/D_NQ_NP_718869-MLM74283523948_022024-O.webp'
 );
 
 INSERT INTO products (
@@ -805,16 +821,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de girasol",
+    'Semilla de girasol',
     1.50,
-    "kg",
+    'kg',
     200,
     3,
-    "Semilla rica en grasas saludables, proteínas y fibra.",
-    "Ayuda a mejorar la salud cardiovascular y la piel.",
-    5
+    'Semilla rica en grasas saludables, proteínas y fibra.',
+    'Ayuda a mejorar la salud cardiovascular y la piel.',
+    5,
+    'https://mercadoacasa.mx/cdn/shop/products/alimentos_1296x.jpg?v=1587784127'
 );
 
 INSERT INTO products (
@@ -825,16 +843,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de calabaza",
+    'Semilla de calabaza',
     1.80,
-    "kg",
+    'kg',
     150,
     3,
-    "Semilla rica en antioxidantes y magnesio.",
-    "Beneficios para la salud digestiva y la piel.",
-    4
+    'Semilla rica en antioxidantes y magnesio.',
+    'Beneficios para la salud digestiva y la piel.',
+    4,
+    'https://hebmx.vtexassets.com/arquivos/ids/658114/69066_1136944627.jpg?v=638520867989130000'
 );
 
 INSERT INTO products (
@@ -845,16 +865,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de chía",
+    'Semilla de chía',
     2.50,
-    "kg",
+    'kg',
     100,
     3,
-    "Semilla rica en omega-3, fibra y antioxidantes.",
-    "Ayuda a mejorar la digestión y reducir la inflamación.",
-    6
+    'Semilla rica en omega-3, fibra y antioxidantes.',
+    'Ayuda a mejorar la digestión y reducir la inflamación.',
+    6,
+    'https://imag.bonviveur.com/semillas-de-chia-al-natural.jpg'
 );
 
 INSERT INTO products (
@@ -865,16 +887,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de lino",
+    'Semilla de lino',
     2.00,
-    "kg",
+    'kg',
     120,
     3,
-    "Semilla rica en fibra, omega-3 y antioxidantes.",
-    "Mejora la digestión y promueve la salud del corazón.",
-    7
+    'Semilla rica en fibra, omega-3 y antioxidantes.',
+    'Mejora la digestión y promueve la salud del corazón.',
+    7,
+    'https://m.media-amazon.com/images/I/A1irhFW9O8L.jpg'
 );
 
 INSERT INTO products (
@@ -885,16 +909,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de sésamo",
+    'Semilla de sésamo',
     1.70,
-    "kg",
+    'kg',
     180,
     3,
-    "Semilla rica en calcio, hierro y antioxidantes.",
-    "Contribuye a la salud ósea y mejora el sistema inmunológico.",
-    2
+    'Semilla rica en calcio, hierro y antioxidantes.',
+    'Contribuye a la salud ósea y mejora el sistema inmunológico.',
+    2,
+    'https://m.media-amazon.com/images/I/91nx40+NTAL.jpg'
 );
 
 INSERT INTO products (
@@ -905,16 +931,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de amapola",
+    'Semilla de amapola',
     2.20,
-    "kg",
+    'kg',
     90,
     3,
-    "Semilla rica en antioxidantes y minerales.",
-    "Ayuda a mejorar la salud digestiva y la piel.",
-    8
+    'Semilla rica en antioxidantes y minerales.',
+    'Ayuda a mejorar la salud digestiva y la piel.',
+    8,
+    'https://static.wixstatic.com/media/9e6903_8a33fdcbf34a4db78991588d1992ae3a~mv2.png/v1/fill/w_420,h_407,al_c,lg_1,q_85,enc_auto/9e6903_8a33fdcbf34a4db78991588d1992ae3a~mv2.png'
 );
 
 INSERT INTO products (
@@ -925,16 +953,18 @@ INSERT INTO products (
     fk_category_id,
     description,
     benefits,
-    fk_producer_id
+    fk_producer_id,
+    url
 ) VALUE (
-    "Semilla de quinoa",
+    'Semilla de quinoa',
     3.00,
-    "kg",
+    'kg',
     80,
     3,
-    "Semilla rica en proteínas completas, fibra y minerales.",
-    "Beneficios para la salud muscular y digestiva.",
-    3
+    'Semilla rica en proteínas completas, fibra y minerales.',
+    'Beneficios para la salud muscular y digestiva.',
+    3,
+    'https://elbanquito.com.ar/wp-content/uploads/2020/09/semillas-de-quinoa-x-1-kg-el-banquito-market.jpg'
 );
 
 INSERT INTO products (
