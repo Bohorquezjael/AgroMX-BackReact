@@ -16,7 +16,7 @@ import com.AgroMX.app.model.Technique;
 import com.AgroMX.app.service.TechniqueService;
 
 @CrossOrigin(origins = "*")
-@RequestMapping("/producers")
+@RequestMapping("/techniques")
 @RestController
 public class TechniqueControllerImpl implements TechniqueController{
 	

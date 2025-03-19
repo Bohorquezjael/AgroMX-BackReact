@@ -30,7 +30,7 @@ public class TechniqueServiceImpl implements TechniqueService{
 
 	@Override
 	public Technique getTechniqueByTechniqueId(Long id) {
-		Optional<Technique> optionalTechnique = techniqueRepository.findByTechniqueId(id);
+		Optional<Technique> optionalTechnique = techniqueRepository.findById(id);
 		if( optionalTechnique.isEmpty()) {
 			throw new IllegalStateException("La técnica con id " + id + " no existe.");
 		}

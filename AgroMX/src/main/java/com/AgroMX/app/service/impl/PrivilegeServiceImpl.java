@@ -2,19 +2,19 @@ package com.AgroMX.app.service.impl;
 
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.AgroMX.app.model.Privilege;
 import com.AgroMX.app.repository.PrivilegeRepository;
 import com.AgroMX.app.service.PrivilegeService;
 
+import jakarta.persistence.EntityNotFoundException;
+
 @Service
 public class PrivilegeServiceImpl implements PrivilegeService {
 
     private final PrivilegeRepository privilegeRepository;
 
-    @Autowired
     public PrivilegeServiceImpl(PrivilegeRepository privilegeRepository) {
         this.privilegeRepository = privilegeRepository;
     }

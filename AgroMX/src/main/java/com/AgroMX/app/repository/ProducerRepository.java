@@ -11,7 +11,7 @@ import com.AgroMX.app.model.Producer;
 public interface ProducerRepository extends CrudRepository<Producer, Long> {
 	
 	Optional<Producer> findByProducerName(String producerName);
-	Optional<Producer> findByProducerId( Long id );
+	// Optional<Producer> findByProducerId( Long id );
 	//Iterable<Producer> findByProducerName(String producerName);}
 	
 	// Iterable<Producer> findAllProducersByActiveTrue();

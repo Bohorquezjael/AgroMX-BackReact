@@ -1,7 +1,15 @@
 package com.AgroMX.app.controller.impl;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.AgroMX.app.controller.CategoryController;
 import com.AgroMX.app.model.Category;
@@ -30,8 +38,9 @@ public class CategoryControllerImpl implements CategoryController {
         return ResponseEntity.status(201).body(categoryService.createCategory(newCategory));
     }
 
+    @Override
     @PutMapping("{id}")
-    public ResponseEntity<Category> updateCategory(@PathVariable("id") Long id, @RequestBody Category category) {
+    public ResponseEntity<Category> updateCategory(@RequestBody Category category, @PathVariable("id") Long id) {
         return ResponseEntity.ok(categoryService.updateCategory(id, category));
     }
 
