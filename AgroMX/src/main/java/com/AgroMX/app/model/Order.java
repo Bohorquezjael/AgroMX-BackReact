@@ -28,6 +28,6 @@ public class Order {
     @Column(name = "date_time")
     private LocalDateTime dateTime;
 
-    @OneToMany(mappedBy = "products", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<ProductOrder> products;
 }
