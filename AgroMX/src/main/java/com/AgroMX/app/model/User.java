@@ -24,6 +24,9 @@ public class User {
 	private String email;
 	@Column(name = "password", nullable = false)
 	private String password;
+	@OneToMany()
+	@JoinColumn(name = "order_id", nullable = false)
+	private Order order;
 
 	public User() {
 	}
@@ -87,6 +90,14 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public Order order() {
+		return order;
+	}
+
+	public void order(Order order) {
+		this.order = order;
 	}
 
 	@Override
