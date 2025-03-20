@@ -30,12 +30,12 @@ INSERT INTO
         category_id,
         description,
         benefits,
-        producer_id
+        producer_id,
+        url
     ) VALUE (
         'Plátano Dominico',
-        'Plátano Dominico',
         25.00,
-        ' kg',
+        'kg',
         100,
         1,
         'Plátano orgánico producido por "Bananas Karla" en el Estado de México. Fuente de fibra, potasio y pectina. Contiene probióticos. Un plátano proporciona 1/4 de la cantidad diaria recomendada de Vitamina B6',
@@ -57,9 +57,7 @@ INSERT INTO
         url
     ) VALUE (
         'Naranja Valencia',
-        'Naranja Valencia',
         31.00,
-        'kg',
         'kg',
         200,
         1,
@@ -82,9 +80,7 @@ INSERT INTO
         url
     ) VALUE (
         'Zanahoria',
-        'Zanahoria',
         14.90,
-        'kg',
         'kg',
         300,
         2,
@@ -107,9 +103,7 @@ INSERT INTO
         url
     ) VALUE (
         'Tomate verde',
-        'Tomate verde',
         28.00,
-        'kg',
         'kg',
         200,
         2,
@@ -132,9 +126,7 @@ INSERT INTO
         url
     ) VALUE (
         'Lechuga orejona',
-        'Lechuga orejona',
         14.00,
-        'kg',
         'kg',
         200,
         2,
@@ -157,9 +149,7 @@ INSERT INTO
         url
     ) VALUE (
         'Pimiento rojo',
-        'Pimiento rojo',
         26.00,
-        'kg',
         'kg',
         200,
         2,
@@ -182,9 +172,7 @@ INSERT INTO
         url
     ) VALUE (
         'Cebolla',
-        'Cebolla',
         15.00,
-        'kg',
         'kg',
         200,
         2,
@@ -207,9 +195,7 @@ INSERT INTO
         url
     ) VALUE (
         'Ajo',
-        'Ajo',
         8.00,
-        'kg',
         'kg',
         200,
         2,
@@ -232,9 +218,7 @@ INSERT INTO
         url
     ) VALUE (
         'Papa',
-        'Papa',
         10.00,
-        'kg',
         'kg',
         200,
         2,
@@ -257,9 +241,7 @@ INSERT INTO
         url
     ) VALUE (
         'Calabacín',
-        'Calabacín',
         24.00,
-        'kg',
         'kg',
         200,
         2,
@@ -282,9 +264,7 @@ INSERT INTO
         url
     ) VALUE (
         'Brócoli',
-        'Brócoli',
         35.00,
-        'kg',
         'kg',
         200,
         2,
@@ -307,9 +287,7 @@ INSERT INTO
         url
     ) VALUE (
         'Espinaca',
-        'Espinaca',
         28.00,
-        'kg',
         'kg',
         200,
         2,
@@ -332,9 +310,7 @@ INSERT INTO
         url
     ) VALUE (
         'Pepino',
-        'Pepino',
         18.00,
-        'kg',
         'kg',
         200,
         2,
@@ -357,9 +333,7 @@ INSERT INTO
         url
     ) VALUE (
         'Calabaza',
-        'Calabaza',
         48.00,
-        'kg',
         'kg',
         200,
         2,
@@ -382,9 +356,7 @@ INSERT INTO
         url
     ) VALUE (
         'Limón',
-        'Limón',
         12.00,
-        'kg',
         'kg',
         250,
         1,
@@ -407,9 +379,7 @@ INSERT INTO
         url
     ) VALUE (
         'Uva',
-        'Uva',
         60.00,
-        'kg',
         'kg',
         180,
         1,
@@ -432,9 +402,7 @@ INSERT INTO
         url
     ) VALUE (
         'Fresa',
-        'Fresa',
         72.00,
-        'kg',
         'kg',
         120,
         1,
@@ -457,9 +425,7 @@ INSERT INTO
         url
     ) VALUE (
         'Kiwi',
-        'Kiwi',
         43.00,
-        'kg',
         'kg',
         90,
         1,
@@ -482,9 +448,7 @@ INSERT INTO
         url
     ) VALUE (
         'Mango petacón',
-        'Mango petacón',
         52.00,
-        'kg',
         'kg',
         140,
         1,
@@ -507,9 +471,7 @@ INSERT INTO
         url
     ) VALUE (
         'Piña miel',
-        'Piña miel',
         60.00,
-        'kg',
         'kg',
         110,
         1,
@@ -532,9 +494,7 @@ INSERT INTO
         url
     ) VALUE (
         'Sandía',
-        'Sandía',
         84.00,
-        'kg',
         'kg',
         95,
         1,
@@ -557,9 +517,7 @@ INSERT INTO
         url
     ) VALUE (
         'Melón',
-        'Melón',
         67.00,
-        'kg',
         'kg',
         105,
         1,
@@ -582,9 +540,7 @@ INSERT INTO
         url
     ) VALUE (
         'Lima criolla',
-        'Lima criolla',
         40.00,
-        'kg',
         'kg',
         150,
         1,
@@ -607,9 +563,7 @@ INSERT INTO
         url
     ) VALUE (
         'Mandarina',
-        'Mandarina',
         26.00,
-        'kg',
         'kg',
         170,
         1,
@@ -632,9 +586,7 @@ INSERT INTO
         url
     ) VALUE (
         'Toronja',
-        'Toronja',
         31.00,
-        'kg',
         'kg',
         130,
         1,
@@ -657,9 +609,7 @@ INSERT INTO
         url
     ) VALUE (
         'Chirimoya',
-        'Chirimoya',
         72.00,
-        'kg',
         'kg',
         85,
         1,
@@ -682,9 +632,7 @@ INSERT INTO
         url
     ) VALUE (
         'Chile guajillo seco',
-        'Chile guajillo seco',
         0.70,
-        'kg',
         'kg',
         130,
         2,
@@ -707,9 +655,7 @@ INSERT INTO
         url
     ) VALUE (
         'Chile ancho seco',
-        'Chile ancho seco',
         0.80,
-        'kg',
         'kg',
         120,
         2,
@@ -732,9 +678,7 @@ INSERT INTO
         url
     ) VALUE (
         'Chile pasilla seco',
-        'Chile pasilla seco',
         0.90,
-        'kg',
         'kg',
         110,
         2,
