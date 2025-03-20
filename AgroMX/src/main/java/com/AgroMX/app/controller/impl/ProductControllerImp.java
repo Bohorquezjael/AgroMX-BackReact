@@ -9,6 +9,7 @@ import com.AgroMX.app.controller.ProductController;
 import com.AgroMX.app.model.Product;
 import com.AgroMX.app.service.ProductService;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/products")
 public class ProductControllerImp implements ProductController{

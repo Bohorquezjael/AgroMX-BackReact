@@ -1,4 +1,4 @@
-INSERT INTO categories(name, description, url_image)
+INSERT INTO agromx.categories (name, description, url_image)
 VALUES
 ('Frutas', ' Frutas frescas', 'https://agromx-gndrua0qr-jael-jareth-alonso-bohorquezs-projects.vercel.app/images/frutas-verduras.png'),
 ('Verduras', ' Verduras frescas', 'https://agromx-gndrua0qr-jael-jareth-alonso-bohorquezs-projects.vercel.app/images/frutas-verduras.png'),
