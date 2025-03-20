@@ -1,4 +1,4 @@
-INSERT INTO producers(name)
+INSERT INTO producers(name, active)
 VALUES
 ('EcoRaíz Orgánica', 1),
 ('Verde Vivo', 1),
