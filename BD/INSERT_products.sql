@@ -698,7 +698,7 @@ INSERT INTO
         description,
         benefits,
         producer_id,
-        url,
+        url
     ) VALUE (
         'Chile chipotle seco',
         1.00,
