@@ -45,14 +45,14 @@ public class ProductControllerImp implements ProductController{
 
     @DeleteMapping("/{id}")
     @Override
-    public ResponseEntity<Product> deleteProduct(Long id) {
+    public ResponseEntity<Product> deleteProduct(@PathVariable Long id) {
         productService.deleteProduct(id);
         return ResponseEntity.status(204).build();    
     }
 
     @GetMapping("/category/{id}")
     @Override
-    public ResponseEntity<Iterable<Product>> getProductByCategory(Long id) {
+    public ResponseEntity<Iterable<Product>> getProductByCategory(@PathVariable Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getProductByCategory'");
     }

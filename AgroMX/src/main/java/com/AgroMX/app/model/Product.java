@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Long id;
 		
-		@Column(name = "product_name", length = 100, nullable = false)
+		@Column(name = "product_name", length = 100, nullable = false, unique = true)
 		private String productName;
 		
 		@Column(name = "price", length = 100, nullable = true)
@@ -32,7 +32,7 @@ import lombok.NoArgsConstructor;
 		@Column(name = "unit", length = 10, nullable = false)
 		private String unit;
 		
-		@Column(name = "stock", length = 50, nullable = false, unique = true)
+		@Column(name = "stock", length = 50, nullable = false)
 		private Long stock;
 		
 		@ManyToOne
