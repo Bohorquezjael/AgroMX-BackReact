@@ -49,7 +49,8 @@ import lombok.NoArgsConstructor;
 		@JoinColumn(name = "producer_id", nullable = false)
 		private Producer producer;
 
-		
+		@Column(name = "url", nullable = false)
+		private String urlImage;
 
 		@Override
 		public String toString() {
