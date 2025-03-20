@@ -16,7 +16,7 @@ public interface ProductController {
 
     public ResponseEntity<Product> deleteProduct(Long id);
     
-    public ResponseEntity<Set<Product>> getProductByCategory(Long id);
+    public ResponseEntity<Iterable<Product>> getProductByCategory(Long id);
 
-    public ResponseEntity<Set<Product>> getAllProducts();
+    public ResponseEntity<Iterable<Product>> getAllProducts();
 }

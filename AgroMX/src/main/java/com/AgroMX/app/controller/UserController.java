@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RestController 
-@RequestMapping("/api/users") 
+@RequestMapping("/users")
 public class UserController {
 
 	UserService userService;
@@ -27,15 +27,12 @@ public class UserController {
 	public UserController(UserService userService) {
 		this.userService = userService;
 	}
-	
-	
+
 	@GetMapping("{id}") 
 	User getUserById(@PathVariable("id") Long id){
 		User existingUser = userService.getUserById(id);
 		return existingUser;
 	}
-	
-	@GetMapping 
 
 	@PostMapping 
 	ResponseEntity<User> createUser(@RequestBody User newUser) {

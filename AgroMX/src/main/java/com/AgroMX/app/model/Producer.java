@@ -32,7 +32,7 @@ public class Producer {
 			)
 	private Set<Technique> technique; // Colecciones de techniques de un productor
 	
-	Producer(){}
+	public Producer(){}
 
 	public Producer(Long id, String producerName) {
 		super();
