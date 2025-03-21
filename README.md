@@ -6,9 +6,10 @@ AgroMX es una plataforma de comercio electrónico enfocada en la venta de produc
 
 El backend de AgroMX ha sido desarrollado con las siguientes tecnologías:
 
-- **Java**: Lenguaje principal para la implementación del backend.
+- **Java**: Lenguaje principal para la creación del back end.
 - **MySQL**: Base de datos relacional utilizada para almacenar la información del sistema.
-- **Spring**: Inyección de dependencias, simplificar el desarrollo de aplicaciones robustas y escalables al proporcionar una infraestructura flexible y modular para gestionar diversas tareas. 
+- **SQL**: Lenguaje estructurado para comunicarnos con la base de datos.
+- **Spring**: Framework utilizado para simplificar el desarrollo, nos permite utilizar inyección de independencias y arquitectura MVC, principalmente. 
 
 ## Instalación y configuración
 
@@ -23,18 +24,16 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 ## Estructura del proyecto
 
 ```
-/agromx-backend
-│── /src
-│   │── /main
-│   │   │── /java/com/agromx
-│   │   │   │── /config       # Configuración de seguridad y CORS
-│   │   │   │── /controllers  # Controladores REST
-│   │   │   │── /dto          # Objetos de transferencia de datos
-│   │   │   │── /models       # Entidades de la base de datos
-│   │   │   │── /repositories # Interfaces para acceso a datos
-│   │   │   │── /services     # Lógica de negocio
-│   │   │── /resources
-│   │   │   │── application.properties # Configuración de la aplicación
+/AgroMX-BackReact
+│── /AgroMX
+│   │── /src
+│   │   │   /java/com/AgroMX/app/
+│   │   │   │── /Exceptions   # Excepciones personalizadas
+│   │   │   │── /controller   # Controladores REST
+│   │   │   │── /model        # Objetos mapeados a tablas de la pase de datos
+│   │   │   │── /repository   # Interfaces para acceso a datos
+│   │   │   │── /service      # Lógica de negocio
+│   │   │   │── AgroMxApplication.java # Programa principal para levantar el servidor
 │── /sql
 │   │── AgroMX_DB.sql  # Script de creación de la base de datos
 │   │── INSERT_users.sql  # Datos de prueba para usuarios
