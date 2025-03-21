@@ -17,7 +17,7 @@ El backend de AgroMX ha sido desarrollado con las siguientes tecnologías:
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 - [Java Development Kit (JDK)](https://adoptium.net/)
-- [MySQL Server & MySQL Workbench](https://dev.mysql.com/downloads/)
+- [MySQL Server](https://dev.mysql.com/downloads/)
 - [JDBC Driver (MySQL Connector)](https://dev.mysql.com/downloads/connector/j/)
 
 ## Estructura del proyecto
