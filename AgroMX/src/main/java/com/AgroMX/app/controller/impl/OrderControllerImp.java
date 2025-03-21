@@ -14,6 +14,7 @@ import com.AgroMX.app.service.impl.OrderServiceImp;
  * @apiNote This class implements the OrderController interface
  **/
 
+@CrossOrigin("*")
 @Controller
 @RequestMapping("/order")
 public class OrderControllerImp implements OrderController {
@@ -26,7 +27,7 @@ public class OrderControllerImp implements OrderController {
 
     @Override
     @PostMapping()
-    public ResponseEntity<Order> createOrder(@RequestBody Order orderBody) throws Exception {
+    public ResponseEntity<Order> createOrder(@RequestBody Order orderBody){
         return orderService.createOrder(orderBody)
                 .map(order -> ResponseEntity.status(201).body(order))
                 .orElseGet(() -> ResponseEntity.status(400).build());
@@ -36,7 +37,7 @@ public class OrderControllerImp implements OrderController {
     @GetMapping("/{id}")
     public ResponseEntity<Order> getOrder(@PathVariable Long id) {
         return orderService.getOrder(id)
-                .map(orderId -> ResponseEntity.ok(orderId))
+                .map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.status(404).build());
     }
 

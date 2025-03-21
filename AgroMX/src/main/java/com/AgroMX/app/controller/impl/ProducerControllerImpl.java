@@ -15,7 +15,7 @@ import com.AgroMX.app.controller.ProducerController;
 import com.AgroMX.app.model.Producer;
 import com.AgroMX.app.service.ProducerService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RequestMapping("/producers")
 @RestController
 public class ProducerControllerImpl implements ProducerController {
@@ -40,13 +40,13 @@ public class ProducerControllerImpl implements ProducerController {
 
 	@Override
 	@PutMapping("{id}")
-	public ResponseEntity<Producer> updateProducer(@RequestBody Producer producer, @PathVariable("{id}") Long id) {
+	public ResponseEntity<Producer> updateProducer(@RequestBody Producer producer, @PathVariable Long id) {
 		return ResponseEntity.ok(producerService.updateProducer(producer, id));
 	}
 
 	@Override
 	@DeleteMapping("{id}")
-	public ResponseEntity<Void> deleteProducer(@PathVariable("{id}") Long id) {
+	public ResponseEntity<Void> deleteProducer(@PathVariable Long id) {
 		producerService.deleteProducer(id);
 		return ResponseEntity.noContent().build();
 	}

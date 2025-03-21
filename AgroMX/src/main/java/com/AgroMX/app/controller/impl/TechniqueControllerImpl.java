@@ -15,7 +15,7 @@ import com.AgroMX.app.controller.TechniqueController;
 import com.AgroMX.app.model.Technique;
 import com.AgroMX.app.service.TechniqueService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RequestMapping("/techniques")
 @RestController
 public class TechniqueControllerImpl implements TechniqueController{
@@ -33,20 +33,20 @@ public class TechniqueControllerImpl implements TechniqueController{
 	}
 
 	@Override
-	@PostMapping("{id}")
+	@PostMapping()
 	public ResponseEntity<Technique> createTechnique(@RequestBody Technique newTechnique) {
 		return ResponseEntity.status(201).body(techniqueService.createTechnique(newTechnique));
 	}
 
 	@Override
 	@PutMapping("{id}")
-	public ResponseEntity<Technique> updateTechnique(@RequestBody Technique technique, @PathVariable("{id}") Long id) {
+	public ResponseEntity<Technique> updateTechnique(@RequestBody Technique technique, @PathVariable Long id) {
 		return ResponseEntity.ok(techniqueService.updateTechnique(technique, id));
 	}
 
 	@Override
 	@DeleteMapping("{id}")
-	public ResponseEntity<Void> deleteTechnique(@PathVariable("{id}") Long id) {
+	public ResponseEntity<Void> deleteTechnique(@PathVariable Long id) {
 		techniqueService.deleteTechnique(id);
 		return ResponseEntity.noContent().build();
 	}

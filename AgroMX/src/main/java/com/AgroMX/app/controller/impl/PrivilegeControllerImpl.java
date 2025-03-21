@@ -17,7 +17,7 @@ import com.AgroMX.app.controller.PrivilegeController;
 import com.AgroMX.app.model.Privilege;
 import com.AgroMX.app.service.PrivilegeService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RequestMapping("/privileges")
 @RestController
 public class PrivilegeControllerImpl implements PrivilegeController {
