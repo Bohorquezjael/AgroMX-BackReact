@@ -25,11 +25,11 @@ public class ProductServiceImp implements ProductService {
 
     @Override
     public Optional<Product> createProduct(Product product) {
-        if(productRepository.existsById(product.getId())){
-            logger.error("Product already exists with id: " + product.getId());
-            throw new EntityDuplicated(product.getId());
+        if(productRepository.existsByProductName(product.getProductName())){
+            logger.error("Product already exists with name: " + product.getProductName());
+            throw new EntityDuplicated(product.getProductName());
         }
-        logger.info("Product created with id: " + product.getId());
+        logger.info("Product created with id: " + product.getProductName());
         return Optional.of(productRepository.save(product));
     }
 
