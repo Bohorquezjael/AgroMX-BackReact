@@ -38,7 +38,6 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 │   │── INSERT_users.sql  # Datos de prueba para usuarios
 │   │── INSERT_products.sql  # Datos de prueba para productos
 │   │── ... (otros scripts de inserción y configuración)
-│── pom.xml  # Configuración de dependencias de Maven
 │── README.md  # Documentación del backend
 ```
 
