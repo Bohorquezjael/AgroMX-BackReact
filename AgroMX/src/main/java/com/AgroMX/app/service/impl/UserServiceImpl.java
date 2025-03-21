@@ -30,9 +30,9 @@ public class UserServiceImpl implements UserService {
   }
 
   @Override
-  public User getUserByEmail(String email) {
+  public Optional<User> getUserByEmail(String email) {
     Optional<User> existingUser = userRepository.findByEmail(email);
-    return existingUser.orElseThrow(() -> new IllegalStateException("No existe el usuario con este" + email));
+    return Optional.ofNullable(existingUser.orElseThrow(() -> new IllegalStateException("No existe el usuario con este" + email)));
   }
 
   @Override
