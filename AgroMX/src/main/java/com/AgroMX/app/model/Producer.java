@@ -4,6 +4,7 @@ import java.util.Set;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -24,7 +25,7 @@ public class Producer {
 	@Column(name = "active")
 	private boolean active;
 	
-	@ManyToMany()
+	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable( // Define la tabla intermedia
 			name="Producers_has_Techniques", // nombre de tabla intermedia
 			joinColumns = @JoinColumn(name = "producer_id"),
