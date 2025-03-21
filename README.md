@@ -8,6 +8,7 @@ El backend de AgroMX ha sido desarrollado con las siguientes tecnologías:
 
 - **Java**: Lenguaje principal para la implementación del backend.
 - **MySQL**: Base de datos relacional utilizada para almacenar la información del sistema.
+- **Spring**: Inyección de dependencias, simplificar el desarrollo de aplicaciones robustas y escalables al proporcionar una infraestructura flexible y modular para gestionar diversas tareas. 
 
 ## Instalación y configuración
 
@@ -44,7 +45,6 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 ## Endpoints principales
 
 ### Autenticación
-- `POST /auth/login` → Iniciar sesión y obtener un token JWT.
 - `POST /auth/register` → Registrar un nuevo usuario.
 
 ### Usuarios
