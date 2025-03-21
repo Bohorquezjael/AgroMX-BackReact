@@ -59,4 +59,11 @@ public class UserController {
     List<User> allUsers = (List<User>) userService.getAllUser();
     return ResponseEntity.status(202).body(allUsers);
   }
+
+  @GetMapping({"email"})
+  ResponseEntity<User> getUserByEmail(@PathVariable String email){
+    return userService.getUserByEmail(email)
+            .map(userFind -> ResponseEntity.ok(userFind))
+            .orElseGet(() -> ResponseEntity.status(404).body(null));
+  }
 }
