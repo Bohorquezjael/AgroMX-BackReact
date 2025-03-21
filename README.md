@@ -65,40 +65,6 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 - `POST /orders` → Crear una nueva orden de compra.
 - `GET /orders/{id}` → Obtener detalles de una orden específica.
 
-## Pruebas con Postman
-
-# Despliegue
-
-Para desplegar la aplicación en un servidor, puedes utilizar:
-
-- [AWS](https://aws.amazon.com/)
-
-Pasos básicos para despliegue en Heroku:
-
-1. Instalar Heroku CLI:
-   ```sh
-   npm install -g heroku
-   ```
-2. Autenticarse en Heroku:
-   ```sh
-   heroku login
-   ```
-3. Crear una aplicación en Heroku:
-   ```sh
-   heroku create agromx-backend
-   ```
-4. Subir el código al repositorio remoto:
-   ```sh
-   git push heroku main
-   ```
-5. Configurar las variables de entorno:
-   ```sh
-   heroku config:set SPRING_DATASOURCE_URL=jdbc:mysql://url_de_tu_base_de_datos
-   heroku config:set SPRING_DATASOURCE_USERNAME=usuario
-   heroku config:set SPRING_DATASOURCE_PASSWORD=contraseña
-   ```
-
-## Contribución
 
 Si deseas contribuir al proyecto:
 
