@@ -1,4 +1,4 @@
-INSERT INTO producers_has_techniques(fk_producer_id, fk_technique_id)
+INSERT INTO producers_has_techniques(producer_id, technique_id)
 VALUES
 (1, 1),
 (1, 2),

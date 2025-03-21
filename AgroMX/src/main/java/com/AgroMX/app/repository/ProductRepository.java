@@ -9,5 +9,6 @@ import com.AgroMX.app.model.Product;
 @Repository
 public interface ProductRepository extends CrudRepository<Product, Long>, PagingAndSortingRepository<Product, Long> {
 
+	boolean existsByProductName(String name);
     
 }

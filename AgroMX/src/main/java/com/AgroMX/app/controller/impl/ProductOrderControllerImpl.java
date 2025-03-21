@@ -1,11 +1,13 @@
 package com.AgroMX.app.controller.impl;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.AgroMX.app.controller.ProductOrderController;
 import com.AgroMX.app.model.ProductOrder;
 
+@CrossOrigin("*")
 @RestController
 public class ProductOrderControllerImpl implements ProductOrderController {
 

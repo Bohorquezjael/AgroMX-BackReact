@@ -10,6 +10,10 @@ public class EntityDuplicated extends RuntimeException{
         super("Entity already exists with id: " + id);
     }
 
+    public EntityDuplicated(String name){
+        super("Entity already exists with name: " + name);
+    }
+
     public EntityDuplicated(String message, Throwable cause){
         super(message, cause);
     }

@@ -1,7 +1,16 @@
 package com.AgroMX.app.model;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 	@Entity
 	@Table(name = "Products")
@@ -14,7 +23,7 @@ import lombok.*;
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Long id;
 		
-		@Column(name = "product_name", length = 100, nullable = false)
+		@Column(name = "product_name", length = 100, nullable = false, unique = true)
 		private String productName;
 		
 		@Column(name = "price", length = 100, nullable = true)
@@ -23,7 +32,7 @@ import lombok.*;
 		@Column(name = "unit", length = 10, nullable = false)
 		private String unit;
 		
-		@Column(name = "stock", length = 50, nullable = false, unique = true)
+		@Column(name = "stock", length = 50, nullable = false)
 		private Long stock;
 		
 		@ManyToOne
@@ -40,7 +49,8 @@ import lombok.*;
 		@JoinColumn(name = "producer_id", nullable = false)
 		private Producer producer;
 
-		
+		@Column(name = "url", nullable = false)
+		private String urlImage;
 
 		@Override
 		public String toString() {

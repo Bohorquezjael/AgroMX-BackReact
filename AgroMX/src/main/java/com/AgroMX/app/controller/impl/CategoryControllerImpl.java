@@ -15,7 +15,7 @@ import com.AgroMX.app.controller.CategoryController;
 import com.AgroMX.app.model.Category;
 import com.AgroMX.app.service.CategoryService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RequestMapping("/categories")
 @RestController
 public class CategoryControllerImpl implements CategoryController {
