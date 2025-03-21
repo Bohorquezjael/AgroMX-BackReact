@@ -60,7 +60,7 @@ public class UserController {
     return ResponseEntity.status(202).body(allUsers);
   }
 
-  @GetMapping({"email"})
+  @GetMapping("email/{email}")
   ResponseEntity<User> getUserByEmail(@PathVariable String email){
     return userService.getUserByEmail(email)
             .map(userFind -> ResponseEntity.ok(userFind))
